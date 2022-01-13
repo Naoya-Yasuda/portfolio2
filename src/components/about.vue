@@ -18,7 +18,7 @@
           <p class="circle responsive_notpc"></p>
           <span class="txt">
               <p class="term">2006.04 〜 2010.03</p>
-              <p class="headline">東京電機大学</p>
+              <p class="headline">都内私立大学</p>
               <p class="description">工学部情報メディア学科在籍。CG, 動画, 音楽等のメディアから始まり、ICTに関わる分野を幅広く学ぶ。研究題材はRSA暗号(使用言語:Basic)。</p>
           </span>
           <p class="circle responsive_pc"></p>
@@ -28,7 +28,7 @@
            <span class="txt">
               <p class="term">2010.04 〜 2019.08</p>
               <p class="headline">高等学校教員</p>
-              <p class="description">神奈川県教育委員会在籍。数学・情報科目を担当。成績処理システム運営主任、全校生徒学籍管理、行政文書発行等。カリキュラムWGにて教育課程策定(2020年度現在施行中。)
+              <p class="description">神奈川県教育委員会在籍。数学・情報科目を担当。成績処理システム運営主任、全校生徒学籍管理、行政文書発行等。カリキュラムWGにて教育課程策定(2021年度現在施行中。)
               </p>
           </span>
           <p class="circle responsive_pc"></p>
@@ -40,6 +40,16 @@
               </p>
               <p class="headline">青年海外協力隊</p>
               <p class="description">自己啓発休業取得後、アフリカはザンビアへ赴任。中等教育学校にて情報科教員。ICT分科会代表も務め、コンピュータラボ大改修プロジェクトを実施。</p>
+          </span>
+          <p class="circle responsive_pc"></p>
+        </li>
+        <li>
+          <p class="circle responsive_notpc"></p>
+          <span class="txt">
+              <p class="term">2021.08 〜 現在
+              </p>
+              <p class="headline">都内某IT企業</p>
+              <p class="description">開発からサブPMまで幅広い業務を担当。海外自動車製造メーカ担当により英語を用いた業務も経験</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>

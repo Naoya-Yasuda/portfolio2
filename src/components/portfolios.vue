@@ -27,6 +27,17 @@
             </div>
           </li>
 
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/webchacha_panel.png"  alt="ポートフォリオ">
+            <div class="panel-content">
+              <p class="panel-title">Webダンススクール<br>"WEBチャチャ"</p>
+              <p class="panel-text">配信型Webレッスンを展開、2021年11月より運用開始</p>
+              <p class="panel-lang">Languages : PHP, WordPress</p>
+              <br>
+              <a href="https://webchacha.official.jp/" class="panel-link">Website</a>
+            </div>
+          </li>
+
         </ul>
 
   </div>
