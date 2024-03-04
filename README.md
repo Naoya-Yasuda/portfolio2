@@ -1,4 +1,4 @@
-# yasutyportfolio2
+# chibahiroportfolio2
 
 ## Project setup
 ```
