@@ -1,9 +1,0 @@
-ポートフォリオサイト(hiroakinagai.official.jp)
-改修、ビルド方法
-
-改修
-編集ファイル：/Users/hiroakinagai/hiroakinagail.official.jp/src/components内の該当ファイル
-
-サーバーで立ち上げる方法
-yarn serve
-→http://localhost:8081/にてアクセス可能
