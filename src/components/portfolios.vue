@@ -1,7 +1,7 @@
 <template>
   <div class="portfolios-wrapper">
     <h2>Portforlios</h2>
-        
+
         <ul class="portfolios">
 
           <li class="panel">
@@ -12,7 +12,7 @@
               <p class="panel-lang">Languages : HTML, CSS, JS, PHP</p>
               <br>
               <a href="https://www.kanto-hamachacha.com/" class="panel-link">Website</a>
-              <a href="https://github.com/chibahiro0514/kanto-hamachacha" class="panel-link github-link">Github</a>
+              <a href="https://github.com/yasuty0514/kanto-hamachacha" class="panel-link github-link">Github</a>
             </div>
           </li>
 
@@ -23,7 +23,7 @@
               <p class="panel-text">当サイト、Vue.jsを用いて作成。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
               <br>
-              <a href="https://github.com/chibahiro0514/myportfolio" class="panel-link github-link">Github</a>
+              <a href="https://github.com/yasuty0514/myportfolio" class="panel-link github-link">Github</a>
             </div>
           </li>
 
@@ -101,7 +101,7 @@
     border-color: #171515;
     color: #171515;
   }
-  @media (max-width: 767px) { 
+  @media (max-width: 767px) {
     .panel {
       margin: 30px 0px;
       width: 320px;
