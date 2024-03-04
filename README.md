@@ -1,7 +1,8 @@
-# chibahiroportfolio2
+# yasutyportfolio2
 
 ## Project setup
 ```
+export PATH=./node_modules/.bin:$PATH
 yarn install
 ```
 
