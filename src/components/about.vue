@@ -4,12 +4,12 @@
     <h2>About</h2>
 
     <table>
-      <tr><th>Name</th><th>永井 寛朗(Hiroaki NAGAI)</th></tr>
-      <tr><th>GitHub</th><th><a href="https://github.com/chibahiro0514">chibahiro0514</a></th></tr>
-      <tr><th>Facebook</th><th><a href="https://www.facebook.com/boogaloo.hiroakinagai">Hiroaki Nagai</a></th></tr>
-      <tr><th>Instragram</th><th><a href="https://www.instagram.com/chibahiro0514/">@chibahiro0514</a></th></tr>
-      <tr><th>Twitter</th><th><a href="https://twitter.com/chiba_hiro0514/">@chiba_hiro0514</a></th></tr>
-      <tr><th>Mail</th><th>chibahiro0514[at]gmail.com</th></tr>
+      <tr><th>Name</th><th>安田 直也(Naoya Yasuda)</th></tr>
+      <tr><th>GitHub</th><th><a href="https://github.com/Naoya-Yasuda">Naoya-Yasuda</a></th></tr>
+      <tr><th>Facebook</th><th><a href="https://www.facebook.com/naoya.yasuda.39">Naoya Yasuda</a></th></tr>
+      <tr><th>Qiita</th><th><a href="https://qiita.com/2301330039zz">@2301330039zz</a></th></tr>
+      <tr><th>Twitter</th><th><a href="https://twitter.com/yasutyNhoffman/">@yasutyNhoffman</a></th></tr>
+      <tr><th>Mail</th><th>2301330039zz[at]cyber-u.ac.jp</th></tr>
     </table>
 
     <div class="career">
@@ -17,18 +17,18 @@
        <li>
           <p class="circle responsive_notpc"></p>
           <span class="txt">
-              <p class="term">2006.04 〜 2010.03</p>
-              <p class="headline">東京電機大学</p>
-              <p class="description">工学部情報メディア学科在籍。CG, 動画, 音楽等のメディアから始まり、ICTに関わる分野を幅広く学ぶ。研究題材は3DCGレンダリングの最適化。</p>
+              <p class="term">2006.04 〜 2015.03</p>
+              <p class="headline">千葉大学</p>
+              <p class="description">工学部情報デザイン学科入学。ストリートダンスにのめり込み休学、中退。</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
         <li>
            <p class="circle responsive_notpc"></p>
            <span class="txt">
-              <p class="term">2010.04 〜 2019.08</p>
-              <p class="headline">高等学校教員</p>
-              <p class="description">神奈川県教育委員会在籍。数学・情報科目を担当。成績処理システム運営主任、全校生徒学籍管理、行政文書発行等。カリキュラムWGにて教育課程策定(2020年度現在施行中。)
+              <p class="term">2016.01 〜 2017.02</p>
+              <p class="headline">商品デザイナー</p>
+              <p class="description">量販店向けのバッグの企画部にて商品デザインを担当。エンジニアになるべく退社
               </p>
           </span>
           <p class="circle responsive_pc"></p>
@@ -36,10 +36,40 @@
         <li>
           <p class="circle responsive_notpc"></p>
           <span class="txt">
-              <p class="term">2018.06 〜 2020.01
+              <p class="term">2017.03 〜 2018.12
               </p>
-              <p class="headline">青年海外協力隊</p>
-              <p class="description">自己啓発休業取得後、アフリカはザンビアへ赴任。中等教育学校にて情報科教員。ICT分科会代表も務め、コンピュータラボ大改修プロジェクトを実施。</p>
+              <p class="headline">株式会社トラスト・テック</p>
+              <p class="description">従業員10,000名 SES事業部に配属。放送業界某外資系チャンネル運用・保守。プログラミングに興味があり退社。</p>
+          </span>
+          <p class="circle responsive_pc"></p>
+        </li>
+        <li>
+          <p class="circle responsive_notpc"></p>
+          <span class="txt">
+              <p class="term">2019.01 〜 2022.08
+              </p>
+              <p class="headline">サン・エム・システム株式会社</p>
+              <p class="description">従業員400名 SES事業部に配属。</p>
+          </span>
+          <p class="circle responsive_pc"></p>
+        </li>
+        <li>
+          <p class="circle responsive_notpc"></p>
+          <span class="txt">
+              <p class="term">2022.09 〜 2023.07
+              </p>
+              <p class="headline">株式会社ジョインポイントテック</p>
+              <p class="description">従業員50名 本社配属。開発リーダーとして相談システムの刷新・AIを担当。</p>
+          </span>
+          <p class="circle responsive_pc"></p>
+        </li>
+        <li>
+          <p class="circle responsive_notpc"></p>
+          <span class="txt">
+              <p class="term">2023.04 〜 2025.09予定
+              </p>
+              <p class="headline">サイバー大学</p>
+              <p class="description">AIテクノロジーコース在籍。2024/04より自然言語の研究室配属。</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -67,10 +97,10 @@
     font-weight: 240;
     color: #343434;
   }
-  
+
   a{
     text-decoration:none;
-  } 
+  }
 
   .career{
     margin-top:50px;
@@ -82,12 +112,12 @@
     max-width: 768px;
     padding: 0;
   }
- 
+
   .career ul li {
     display: flex;
     align-items: center;
   }
-  
+
   .career p{
     margin: 10px  0;
   }
@@ -155,7 +185,7 @@
     transform: translate(-13.5px,0);
   }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 
   table{
     margin: 0 10px;

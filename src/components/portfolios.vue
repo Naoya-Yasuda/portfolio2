@@ -1,7 +1,7 @@
 <template>
   <div class="portfolios-wrapper">
     <h2>Portforlios</h2>
-        
+
         <ul class="portfolios">
 
           <li class="panel">
@@ -101,7 +101,7 @@
     color: #171515;
   }
 
-  @media (max-width: 767px) { 
+  @media (max-width: 767px) {
 
     .panel {
       margin: 30px 0px;
