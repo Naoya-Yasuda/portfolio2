@@ -22,7 +22,7 @@
         <figure><img src="../assets/images/skills/MDXQ-1.png" alt="MDXQ_Term1"><figcaption>マナビDX Quest2023<br>Term1 PBL05(データ分析)</figcaption></figure>
         <figure><img src="../assets/images/skills/MDXQ-2.png" alt="MDXQ_Term2"><figcaption>マナビDX Quest2023<br>Term2 地域協働プログラム</figcaption></figure>
         <figure><img src="../assets/images/skills/zero-to-one-logo.png" alt="zero_to_one"><figcaption>JDLA「E資格」向け<br>認定プログラム</figcaption></figure>
-        <figure><img src="../assets/images/skills/Kaggle-logo.png" alt="kaggle"><figcaption>Kaggle</figcaption></figure>
+        <figure><img src="../assets/images/skills/kaggle.png" alt="kaggle"><figcaption>Kaggle</figcaption></figure>
         <figure><img src="../assets/images/skills/SIGNATE-logo.png" alt="zero_to_one"><figcaption>SIGNATE</figcaption></figure>
       </div>
     </div>
@@ -30,18 +30,19 @@
     <div class="languages">
       <h3>- Languages -</h3>
       <div class="icon-area">
-        <figure><img src="../assets/images/skills/python-logo.jpeg" alt="html"><figcaption>Python</figcaption></figure>
+        <figure><img src="../assets/images/skills/python.png" alt="html"><figcaption>Python</figcaption></figure>
         <figure><img src="../assets/images/skills/ts-logo.webp" alt="html"><figcaption>Typescript</figcaption></figure>
-        <figure><img src="../assets/images/skills/php-logo.png" alt="html"><figcaption>PHP</figcaption></figure>
+        <figure><img src="../assets/images/skills/php.png" alt="html"><figcaption>PHP</figcaption></figure>
         <figure><img src="../assets/images/skills/html.png" alt="html"><figcaption>HTML</figcaption></figure>
         <figure><img src="../assets/images/skills/css.png" alt="css"><figcaption>CSS</figcaption></figure>
         <figure><img src="../assets/images/skills/JS.png" alt="JavaScript"><figcaption>JavaScript</figcaption></figure>
         <figure><img src="../assets/images/skills/vue.png" alt="Vue.js"><figcaption>Vue.js</figcaption></figure>
         <figure><img src="../assets/images/skills/Angular-logo.png" alt="Vue.js"><figcaption>Angular</figcaption></figure>
-        <figure><img src="../assets/images/skills/Spring.png" alt="Vue.js"><figcaption>Spring</figcaption></figure>
-        <figure><img src="../assets/images/skills/Flutter-logo.png" alt="Vue.js"><figcaption>Flutter</figcaption></figure>
+        <figure><img src="../assets/images/skills/spring-boot.png" alt="Vue.js"><figcaption>Spring Boot</figcaption></figure>
+        <figure><img src="../assets/images/skills/spring-batch.png" alt="Vue.js"><figcaption>Spring Batch</figcaption></figure>
+        <figure><img src="../assets/images/skills/flutter.png" alt="Vue.js"><figcaption>Flutter</figcaption></figure>
         <figure><img src="../assets/images/skills/git.png" alt="git"><figcaption>Git</figcaption></figure>
-        <figure><img src="../assets/images/skills/SQL.png" alt="git"><figcaption>SQL</figcaption></figure>
+        <figure><img src="../assets/images/skills/sql.png" alt="git"><figcaption>SQL</figcaption></figure>
       </div>
     </div>
 

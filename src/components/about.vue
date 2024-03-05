@@ -28,7 +28,7 @@
            <span class="txt">
               <p class="term">2016.01 〜 2017.02</p>
               <p class="headline">アドニス株式会社</p>
-              <p class="description">量販店向けのバッグの企画部にて商品デザインを担当<br>エンジニアになるべく退社
+              <p class="description">量販店向けのバッグの企画部にて<br>商品デザインを担当
               </p>
           </span>
           <p class="circle responsive_pc"></p>
@@ -49,7 +49,7 @@
               <p class="term">2019.01 〜 2022.08
               </p>
               <p class="headline">サン・エム・システム株式会社</p>
-              <p class="description">従業員400名 SES事業部に配属<br>フロントエンド、バックエンド問わず上流から下流まで経験</p>
+              <p class="description">従業員400名 SES事業部に配属<br>フロントエンド、バックエンド問わず<br>上流から下流まで経験</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
