@@ -17,12 +17,12 @@
 
     <div class="activity">
       <h3>- Activity -</h3>
-      <figure><img src="../assets/images/skills/Hack_U_Online.png" alt="Hack_U_Online"><figcaption>Hack U Online2023 最優秀賞・HappyHacking賞</figcaption></figure>
-      <figure><img src="../assets/images/skills/MDXQ-1.png" alt="MDXQ_Term1"><figcaption>経産省主催マナビDX Quest2023 Term1 Gold修了</figcaption></figure>
-      <figure><img src="../assets/images/skills/MDXQ-2.png" alt="MDXQ_Term2"><figcaption>経産省主催マナビDX Quest2023 Term2 地域協業プログラム修了</figcaption></figure>
-      <figure><img src="../assets/images/skills/zero-to-one-logo.png" alt="zero_to_one"><figcaption>JDLA「E資格」向け認定プログラム 修了</figcaption></figure>
-      <figure><img src="../assets/images/skills/kaggle-logo.png" alt="kaggle"><figcaption>Kaggleコンペ 参加中</figcaption></figure>
-      <figure><img src="../assets/images/skills/SIGNATE-logo.png" alt="zero_to_one"><figcaption>SIGNATEコンペ 参加中</figcaption></figure>
+      <figure><img src="../assets/images/skills/Hack_U_Online.png" alt="Hack_U_Online"><figcaption>Hack U Online2023<br>最優秀賞<br>HappyHacking賞</figcaption></figure>
+      <figure><img src="../assets/images/skills/MDXQ-1.png" alt="MDXQ_Term1"><figcaption>経産省主催マナビDX Quest2023 Term1<br>Gold修了</figcaption></figure>
+      <figure><img src="../assets/images/skills/MDXQ-2.png" alt="MDXQ_Term2"><figcaption>経産省主催マナビDX Quest2023 Term2 地域協業プログラム<br>修了</figcaption></figure>
+      <figure><img src="../assets/images/skills/zero-to-one-logo.png" alt="zero_to_one"><figcaption>JDLA「E資格」向け認定プログラム<br>修了</figcaption></figure>
+      <figure><img src="../assets/images/skills/Kaggle-logo.png" alt="kaggle"><figcaption>Kaggle</figcaption></figure>
+      <figure><img src="../assets/images/skills/SIGNATE-logo.png" alt="zero_to_one"><figcaption>SIGNATE</figcaption></figure>
     </div>
 
     <div class="languages">
@@ -43,8 +43,10 @@
     text-align:center;
   }
 
-  figure img{
-    width:70px;
+  .icon-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   figure{
@@ -61,6 +63,7 @@
   figure img{
     width: 70px;
     height: 70px;
+    margin-bottom: 4px;
   }
 
   @media (max-width: 767px) {

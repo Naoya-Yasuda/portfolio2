@@ -7,7 +7,7 @@
     </div>
 
       <div id="main-title">
-          <h1>NAOYA YASUDA's <br class="resopnsive_notpc">Portfolios <span class="resopnsive_notpc">Site</span></h1>
+          <h1>Naoya YASUDA's <br class="resopnsive_notpc">Portfolios <span class="resopnsive_notpc">Site</span></h1>
       </div>
 
       <div class="perticles-wrapper">
