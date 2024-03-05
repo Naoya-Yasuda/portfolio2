@@ -7,13 +7,14 @@
           <li class="panel">
             <object class="panel-img" data="/portfolio2/img/MDXQ2023_slide.pdf" type="application/pdf"></object>
             <div class="panel-content">
-              <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析<br>(機密マスク済)</p>
+              <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析</p>
               <p class="panel-text">東北のグループ企業との協働。現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。有償契約調整中</p>
               <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
               <p class="panel-skill">AI model : LightGBM, LSTM, k-means</p>
               <br>
               <a href="https://r-club.jp/index.php/" class="panel-link">Website</a>
               <a href="https://github.com/Naoya-Yasuda/MANABI_DX_QUEST_2023_PrePoC" class="panel-link github-link">Github</a>
+              <p class="panel-text-mini">※機密保護の観点から資料はマスク済。Git上にはデータはなく、notebookの出力も管理しないように設定済。</p>
             </div>
           </li>
 
@@ -105,6 +106,10 @@
     color: #777;
     font-size: 14px;
     line-height: 1.5;
+  }
+
+  .panel-text-mini{
+    font-size: 10px;
   }
 
   .panel-link{
