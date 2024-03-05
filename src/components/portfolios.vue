@@ -31,11 +31,12 @@
           </li>
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/HackU_panel.png"  alt="OpenHackU">
+            <img class="panel-img" src="../assets/images/portfolios/modoken.jpg"  alt="OpenHackU">
             <div class="panel-content">
               <p class="panel-title">Open Hack U 2023 ONLINE<br>盲導犬スマホアプリ</p>
               <p class="panel-text">サイバー大学の3名で参加<br>リーダーとして主に開発・事務局への解説を担当<br>最優秀賞と参加者投票による賞をW受賞</p>
               <p class="panel-lang">Languages : Flutter Dart</p>
+              <p class="panel-skill">AI model : YOLO_v2</p>
               <br>
               <a href="https://hacku.yahoo.co.jp/hacku2023_online/index.html" class="panel-link">Website</a>
               <a href="https://www.youtube.com/live/PAsUW8Uk5JM?si=aWKECx11UTioCvgk&t=3196" class="panel-link">Youtube</a>
@@ -55,7 +56,7 @@
           </li>
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/modoken.jpg"  alt="相談システム">
+            <img class="panel-img" src="../assets/images/portfolios/sodan.jpg"  alt="相談システム">
             <div class="panel-content">
               <p class="panel-title">相談システム</p>
               <p class="panel-text">開発リーダーとして顧客折衝、AIによるリスクキーワード抽出、LINE周りのバックエンド開発、BtoB向けメイン画面、メール相談機能を開発</p>
@@ -69,7 +70,7 @@
           <li class="panel">
             <img class="panel-img" src="../assets/images/portfolios/IY.jpg"  alt="IY">
             <div class="panel-content">
-              <p class="panel-title">イトーヨーカドー勤怠管理・作業割当システム</p>
+              <p class="panel-title">イトーヨーカドー<br>勤怠管理・作業割当システム</p>
               <p class="panel-text">ph1ではフロントエンドテックリード。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
               <p class="panel-lang">Languages : HTML, CSS, TS(Angular) Java(Spring Boot, SpringBatch)</p>
               <br>
