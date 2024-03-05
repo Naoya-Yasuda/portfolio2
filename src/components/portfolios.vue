@@ -3,14 +3,29 @@
     <h2>Portforlios</h2>
 
         <ul class="portfolios">
+
           <li class="panel">
-            <object class="panel-img" src="../assets/images/portfolios/MDXQ2023_slide.pdf" type="application/pdf"></object>
+            <object class="panel-img" data="../assets/images/portfolios/MDXQ2023_slide.pdf" type="application/pdf"></object>
             <div class="panel-content">
-              <p class="panel-title">SKグループ様データ分析(機密マスク済)</p>
-              <p class="panel-text">現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。</p>
+              <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析<br>(機密マスク済)</p>
+              <p class="panel-text">現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。有償契約調整中</p>
               <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
+              <p class="panel-skill">AI model : LightGBM, LSTM, k-means</p>
               <br>
               <a href="https://r-club.jp/index.php/" class="panel-link">Website</a>
+              <a href="https://github.com/Naoya-Yasuda/MANABI_DX_QUEST_2023_PrePoC" class="panel-link github-link">Github</a>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/MDXQ2023.png"  alt="マナビDXクエスト">
+            <div class="panel-content">
+              <p class="panel-title">マナビDX Quest 2023<br>PBL05データ分析</p>
+              <p class="panel-text">データ分析30位 Gold修了。EDA、PoC、実行計画策定まで実施。</p>
+              <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
+              <p class="panel-skill">AI model : LightGBM</p>
+              <br>
+              <a href="https://dxq.manabi-dx.ipa.go.jp/" class="panel-link">Website</a>
             </div>
           </li>
 
@@ -54,7 +69,7 @@
     text-align:center;
   }
 
-  .panel-lang{
+  .panel-lang, .panel-skill{
     font-weight: 500;
   }
 
@@ -70,7 +85,7 @@
   .panel-img {
     border-radius: 5px 5px 0 0;
     width: 100%;
-    height: auto;
+    height: 240px;
     border-bottom: solid 1px #ccc;
   }
 
