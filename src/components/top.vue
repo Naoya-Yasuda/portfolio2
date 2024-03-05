@@ -2,12 +2,12 @@
 
   <div id="top-wrapper">
     <div class="top_images">
-      <img src="../assets/images/bgimage.jpeg" alt="Nagai's portfolio website's top image" class="responsive_pc">
-      <img src="../assets/images/bgimage_responsive.jpeg" alt="Nagai's portfolio website's top image to responsive" class="responsive_notpc">
+      <img src="../assets/images/bgimage.jpeg" alt="Yasuda's portfolio website's top image" class="responsive_pc">
+      <img src="../assets/images/bgimage_responsive.jpeg" alt="Yasuda's portfolio website's top image to responsive" class="responsive_notpc">
     </div>
 
       <div id="main-title">
-          <h1>Hiroaki NAGAI's <br class="resopnsive_notpc">Portfolios <span class="resopnsive_notpc">Site</span></h1>
+          <h1>NAOYA YASUDA's <br class="resopnsive_notpc">Portfolios <span class="resopnsive_notpc">Site</span></h1>
       </div>
 
       <div class="perticles-wrapper">
@@ -45,7 +45,7 @@
 img{
 	width: 100%;
   height: auto;
-  opacity: 0.85; 
+  opacity: 0.85;
   vertical-align: bottom;
 }
 
@@ -82,7 +82,7 @@ h1 .resopnsive_notpc{
   height: 100%;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 
   #top-wrapper {
     top: 50px;

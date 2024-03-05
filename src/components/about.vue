@@ -19,7 +19,7 @@
           <span class="txt">
               <p class="term">2006.04 〜 2015.03</p>
               <p class="headline">千葉大学</p>
-              <p class="description">工学部情報デザイン学科入学。ストリートダンスにのめり込み休学、中退。</p>
+              <p class="description">工学部情報デザイン学科入学。ストリートダンスにのめり込む。</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -27,7 +27,7 @@
            <p class="circle responsive_notpc"></p>
            <span class="txt">
               <p class="term">2016.01 〜 2017.02</p>
-              <p class="headline">商品デザイナー</p>
+              <p class="headline">アドニス株式会社</p>
               <p class="description">量販店向けのバッグの企画部にて商品デザインを担当。エンジニアになるべく退社
               </p>
           </span>
@@ -49,7 +49,7 @@
               <p class="term">2019.01 〜 2022.08
               </p>
               <p class="headline">サン・エム・システム株式会社</p>
-              <p class="description">従業員400名 SES事業部に配属。</p>
+              <p class="description">従業員400名 SES事業部に配属。フロントエンド、バックエンド問わず上流から下流まで経験。AIエンジニアを目指し退社。</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -59,7 +59,7 @@
               <p class="term">2022.09 〜 2023.07
               </p>
               <p class="headline">株式会社ジョインポイントテック</p>
-              <p class="description">従業員50名 本社配属。開発リーダーとして相談システムの刷新・AIを担当。</p>
+              <p class="description">従業員50名 本社配属。開発リーダーとして相談システムの刷新にて顧客折衝、AIを担当。</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
