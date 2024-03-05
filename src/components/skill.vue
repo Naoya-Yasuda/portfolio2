@@ -27,6 +27,24 @@
       </div>
     </div>
 
+    <div class="data science">
+      <h3>- Data Science -</h3>
+      <div class="icon-area">
+        <figure><img src="../assets/images/skills/scikit.png" alt="Scikit_Learn"><figcaption>Scikit Learn</figcaption></figure>
+        <figure><img src="../assets/images/skills/pytorch.png" alt="Pytorch"><figcaption>Pytorch</figcaption></figure>
+        <figure><img src="../assets/images/skills/tensorflow.png" alt="TensorFlow"><figcaption>TensorFlow</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="cloud service">
+      <h3>- Cloud Service -</h3>
+      <div class="icon-area">
+        <figure><img src="../assets/images/skills/aws.png" alt="Scikit_Learn"><figcaption>AWS</figcaption></figure>
+        <figure><img src="../assets/images/skills/gcp.png" alt="Pytorch"><figcaption>GCP</figcaption></figure>
+        <figure><img src="../assets/images/skills/azure.png" alt="TensorFlow"><figcaption>Azure</figcaption></figure>
+      </div>
+    </div>
+
     <div class="languages">
       <h3>- Languages -</h3>
       <div class="icon-area">
@@ -53,7 +71,7 @@
   .skills-wrapper{
     text-align:center;
   }
-  .skills-wrapper > .div{
+  .skills-wrapper > div{
     padding-bottom: 30px;
   }
 
