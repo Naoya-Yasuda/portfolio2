@@ -30,7 +30,7 @@
     <div class="data science">
       <h3>- Data Science -</h3>
       <div class="icon-area">
-        <figure><img src="../assets/images/skills/scikit.png" alt="Scikit_Learn"><figcaption>Scikit Learn</figcaption></figure>
+        <figure><img src="../assets/images/skills/scikit.webp" alt="Scikit_Learn"><figcaption>Scikit Learn</figcaption></figure>
         <figure><img src="../assets/images/skills/pytorch.png" alt="Pytorch"><figcaption>Pytorch</figcaption></figure>
         <figure><img src="../assets/images/skills/tensorflow.png" alt="TensorFlow"><figcaption>TensorFlow</figcaption></figure>
       </div>
