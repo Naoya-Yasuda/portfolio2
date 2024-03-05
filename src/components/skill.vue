@@ -16,8 +16,8 @@
     </div>
 
     <div class="activity">
-      <div class="icon-area">
       <h3>- Activity -</h3>
+      <div class="icon-area">
         <figure><img src="../assets/images/skills/Hack_U_Online.png" alt="Hack_U_Online"><figcaption>Hack U Online2023<br>最優秀賞<br>HappyHacking賞</figcaption></figure>
         <figure><img src="../assets/images/skills/MDXQ-1.png" alt="MDXQ_Term1"><figcaption>経産省主催マナビDX Quest2023<br>Term1 Gold</figcaption></figure>
         <figure><img src="../assets/images/skills/MDXQ-2.png" alt="MDXQ_Term2"><figcaption>経産省主催マナビDX Quest2023<br>Term2 地域協業プログラム</figcaption></figure>
@@ -28,8 +28,8 @@
     </div>
 
     <div class="languages">
-      <div class="icon-area">
       <h3>- Languages -</h3>
+      <div class="icon-area">
         <figure><img src="../assets/images/skills/html.png" alt="html"><figcaption>HTML</figcaption></figure>
         <figure><img src="../assets/images/skills/css.png" alt="css"><figcaption>CSS</figcaption></figure>
         <figure><img src="../assets/images/skills/JS.png" alt="JavaScript"><figcaption>JavaScript</figcaption></figure>

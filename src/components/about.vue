@@ -9,7 +9,7 @@
       <tr><th>Facebook</th><th><a href="https://www.facebook.com/naoya.yasuda.39">Naoya Yasuda</a></th></tr>
       <tr><th>Qiita</th><th><a href="https://qiita.com/2301330039zz">@2301330039zz</a></th></tr>
       <tr><th>Twitter</th><th><a href="https://twitter.com/yasutyNhoffman/">@yasutyNhoffman</a></th></tr>
-      <tr><th>Mail</th><th>2301330039zz[at]cyber-u.ac.jp</th></tr>
+      <tr><th>Mail</th><th>2301330039zz@cyber-u.ac.jp</th></tr>
     </table>
 
     <div class="career">
@@ -19,7 +19,7 @@
           <span class="txt">
               <p class="term">2006.04 〜 2015.03</p>
               <p class="headline">千葉大学</p>
-              <p class="description">工学部情報デザイン学科入学。ストリートダンスにのめり込む</p>
+              <p class="description">工学部情報デザイン学科入学<br>ストリートダンスにのめり込む</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -28,7 +28,7 @@
            <span class="txt">
               <p class="term">2016.01 〜 2017.02</p>
               <p class="headline">アドニス株式会社</p>
-              <p class="description">量販店向けのバッグの企画部にて商品デザインを担当。エンジニアになるべく退社
+              <p class="description">量販店向けのバッグの企画部にて商品デザインを担当<br>エンジニアになるべく退社
               </p>
           </span>
           <p class="circle responsive_pc"></p>
@@ -39,7 +39,7 @@
               <p class="term">2017.03 〜 2018.12
               </p>
               <p class="headline">株式会社トラスト・テック</p>
-              <p class="description">従業員10,000名 SES事業部に配属。放送業界某外資系チャンネル運用・保守。プログラミングをするために退社</p>
+              <p class="description">従業員10,000名 SES事業部に配属<br>放送業界某外資系チャンネル運用・保守</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -49,7 +49,7 @@
               <p class="term">2019.01 〜 2022.08
               </p>
               <p class="headline">サン・エム・システム株式会社</p>
-              <p class="description">従業員400名 SES事業部に配属。フロントエンド、バックエンド問わず上流から下流まで経験。AIエンジニアを目指し退社</p>
+              <p class="description">従業員400名 SES事業部に配属<br>フロントエンド、バックエンド問わず上流から下流まで経験</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -59,7 +59,7 @@
               <p class="term">2022.09 〜 2023.07
               </p>
               <p class="headline">株式会社ジョインポイントテック</p>
-              <p class="description">従業員50名 本社配属。開発リーダーとして相談システムの刷新にて顧客折衝、AIを担当</p>
+              <p class="description">従業員50名 本社配属<br>開発リーダーとして相談システムの刷新にて顧客折衝、AIを担当</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -69,7 +69,7 @@
               <p class="term">2023.04 〜 2025.09予定
               </p>
               <p class="headline">サイバー大学</p>
-              <p class="description">AIテクノロジーコース在籍。2024/04より自然言語の研究室配属</p>
+              <p class="description">AIテクノロジーコース在籍<br>2024/04より自然言語の研究室配属</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>

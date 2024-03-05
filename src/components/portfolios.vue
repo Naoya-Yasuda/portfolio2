@@ -5,14 +5,13 @@
         <ul class="portfolios">
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/kanto-hamachacha_panel.jpg"  alt="関東ハマチャチャ同好会キャプチャ">
+            <img class="panel-img" src="../assets/images/portfolios/JTB_panel.png"  alt="JTB公式キャプチャ">
             <div class="panel-content">
-              <p class="panel-title">所属ダンスチーム公式サイト</p>
-              <p class="panel-text">Webマーケティングの知識も応用。</p>
+              <p class="panel-title">JTB公式サイト</p>
+              <p class="panel-text">保守フェーズにて主に画面側を担当</p>
               <p class="panel-lang">Languages : HTML, CSS, JS, PHP</p>
               <br>
-              <a href="https://www.kanto-hamachacha.com/" class="panel-link">Website</a>
-              <a href="https://github.com/chibahiro0514/kanto-hamachacha" class="panel-link github-link">Github</a>
+              <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
             </div>
           </li>
 
@@ -23,7 +22,7 @@
               <p class="panel-text">当サイト、Vue.jsを用いて作成。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
               <br>
-              <a href="https://github.com/chibahiro0514/myportfolio" class="panel-link github-link">Github</a>
+              <a href="https://github.com/Naoya-Yasuda/portfolio2" class="panel-link github-link">Github</a>
             </div>
           </li>
 
