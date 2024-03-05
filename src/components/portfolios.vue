@@ -5,7 +5,7 @@
         <ul class="portfolios">
 
           <li class="panel">
-            <object class="panel-img" data="../assets/images/portfolios/MDXQ2023_slide.pdf" type="application/pdf"></object>
+            <iframe class="panel-img" src="../assets/images/portfolios/MDXQ2023_slide.pdf" type="application/pdf"></iframe>
             <div class="panel-content">
               <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析<br>(機密マスク済)</p>
               <p class="panel-text">東北のグループ企業との協働。現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。有償契約調整中</p>

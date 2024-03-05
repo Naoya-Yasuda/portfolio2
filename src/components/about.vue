@@ -19,7 +19,7 @@
           <span class="txt">
               <p class="term">2006.04 〜 2015.03</p>
               <p class="headline">千葉大学</p>
-              <p class="description">工学部情報デザイン学科入学<br>ストリートダンスにのめり込む</p>
+              <p class="description">工学部デザイン学科入学<br>ストリートダンスにのめり込む</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
