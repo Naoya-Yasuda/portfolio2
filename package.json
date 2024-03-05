@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build && npm run copy:pdf",
+    "lint": "vue-cli-service lint",
+    "copy:pdf": "cp src/assets/images/portfolios/MDXQ2023_slide.pdf docs/img"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",

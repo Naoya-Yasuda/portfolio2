@@ -8,7 +8,7 @@
             <object class="panel-img" data="../assets/images/portfolios/MDXQ2023_slide.pdf" type="application/pdf"></object>
             <div class="panel-content">
               <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析<br>(機密マスク済)</p>
-              <p class="panel-text">現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。有償契約調整中</p>
+              <p class="panel-text">東北のグループ企業との協働。現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。有償契約調整中</p>
               <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
               <p class="panel-skill">AI model : LightGBM, LSTM, k-means</p>
               <br>
@@ -30,7 +30,7 @@
           </li>
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/JTB_panel.png"  alt="JTB公式キャプチャ">
+            <img class="panel-img" src="../assets/images/portfolios/JTB_panel.jpg"  alt="JTB">
             <div class="panel-content">
               <p class="panel-title">JTB公式サイト刷新</p>
               <p class="panel-text">保守フェーズにて主に画面側を担当</p>
