@@ -16,7 +16,7 @@
     <contact id="contact"></contact>
 
     <div class="footer">
-      <p><span class="responsive_pc">Thank you for visiting.</span><br class="responsive_pc">Copyright(c) and Designed by Hiroaki NAGAI. <br class="responsive_notpc">All Rights Reserved.</p>
+      <p><span class="responsive_pc">Thank you for visiting.</span><br class="responsive_pc">Copyright(c) and Designed by Naoya YASUDA. <br class="responsive_notpc">All Rights Reserved.</p>
     </div>
 
   </div>
@@ -119,7 +119,7 @@ h3{
   display: none;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   .menubar{
     margin:0 auto;
   }

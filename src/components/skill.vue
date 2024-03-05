@@ -18,9 +18,9 @@
     <div class="activity">
       <h3>- Activity -</h3>
       <div class="icon-area">
-        <figure><img src="../assets/images/skills/Hack_U_Online.png" alt="Hack_U_Online"><figcaption>Hack U Online2023<br>最優秀賞<br>HappyHacking賞</figcaption></figure>
-        <figure><img src="../assets/images/skills/MDXQ-1.png" alt="MDXQ_Term1"><figcaption>経産省主催マナビDX Quest2023<br>Term1 Gold</figcaption></figure>
-        <figure><img src="../assets/images/skills/MDXQ-2.png" alt="MDXQ_Term2"><figcaption>経産省主催マナビDX Quest2023<br>Term2 地域協業プログラム</figcaption></figure>
+        <figure><img src="../assets/images/skills/Hack_U_Online.png" alt="Hack_U_Online"><figcaption>Hack U Online 2023<br>最優秀賞<br>HappyHacking賞</figcaption></figure>
+        <figure><img src="../assets/images/skills/MDXQ-1.png" alt="MDXQ_Term1"><figcaption>マナビDX Quest2023<br>Term1 PBL05(データ分析)</figcaption></figure>
+        <figure><img src="../assets/images/skills/MDXQ-2.png" alt="MDXQ_Term2"><figcaption>マナビDX Quest2023<br>Term2 地域協働プログラム</figcaption></figure>
         <figure><img src="../assets/images/skills/zero-to-one-logo.png" alt="zero_to_one"><figcaption>JDLA「E資格」向け<br>認定プログラム</figcaption></figure>
         <figure><img src="../assets/images/skills/Kaggle-logo.png" alt="kaggle"><figcaption>Kaggle</figcaption></figure>
         <figure><img src="../assets/images/skills/SIGNATE-logo.png" alt="zero_to_one"><figcaption>SIGNATE</figcaption></figure>
@@ -30,12 +30,18 @@
     <div class="languages">
       <h3>- Languages -</h3>
       <div class="icon-area">
+        <figure><img src="../assets/images/skills/python-logo.jpeg" alt="html"><figcaption>Python</figcaption></figure>
+        <figure><img src="../assets/images/skills/ts-logo.webp" alt="html"><figcaption>Typescript</figcaption></figure>
+        <figure><img src="../assets/images/skills/php-logo.png" alt="html"><figcaption>PHP</figcaption></figure>
         <figure><img src="../assets/images/skills/html.png" alt="html"><figcaption>HTML</figcaption></figure>
         <figure><img src="../assets/images/skills/css.png" alt="css"><figcaption>CSS</figcaption></figure>
         <figure><img src="../assets/images/skills/JS.png" alt="JavaScript"><figcaption>JavaScript</figcaption></figure>
         <figure><img src="../assets/images/skills/vue.png" alt="Vue.js"><figcaption>Vue.js</figcaption></figure>
+        <figure><img src="../assets/images/skills/Angular-logo.png" alt="Vue.js"><figcaption>Angular</figcaption></figure>
+        <figure><img src="../assets/images/skills/Spring.png" alt="Vue.js"><figcaption>Spring</figcaption></figure>
+        <figure><img src="../assets/images/skills/Flutter-logo.png" alt="Vue.js"><figcaption>Flutter</figcaption></figure>
         <figure><img src="../assets/images/skills/git.png" alt="git"><figcaption>Git</figcaption></figure>
-        <figure><img src="../assets/images/skills/github.png" alt="GitHub"><figcaption>GitHub</figcaption></figure>
+        <figure><img src="../assets/images/skills/SQL.png" alt="git"><figcaption>SQL</figcaption></figure>
       </div>
     </div>
 
@@ -45,9 +51,9 @@
 <style>
   .skills-wrapper{
     text-align:center;
-    .div{
-      padding-bottom: 20px;
-    }
+  }
+  .skills-wrapper > .div{
+    padding-bottom: 30px;
   }
 
   .icon-area{
