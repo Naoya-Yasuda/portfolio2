@@ -3,13 +3,23 @@
     <h2>Portforlios</h2>
 
         <ul class="portfolios">
+          <li class="panel">
+            <object class="panel-img" src="../assets/images/portfolios/MDXQ2023_slide.pdf" type="application/pdf"></object>
+            <div class="panel-content">
+              <p class="panel-title">SKグループ様データ分析(機密マスク済)</p>
+              <p class="panel-text">現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。</p>
+              <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
+              <br>
+              <a href="https://r-club.jp/index.php/" class="panel-link">Website</a>
+            </div>
+          </li>
 
           <li class="panel">
             <img class="panel-img" src="../assets/images/portfolios/JTB_panel.png"  alt="JTB公式キャプチャ">
             <div class="panel-content">
-              <p class="panel-title">JTB公式サイト</p>
+              <p class="panel-title">JTB公式サイト刷新</p>
               <p class="panel-text">保守フェーズにて主に画面側を担当</p>
-              <p class="panel-lang">Languages : HTML, CSS, JS, PHP</p>
+              <p class="panel-lang">Languages : HTML, CSS, JS, Java</p>
               <br>
               <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
             </div>

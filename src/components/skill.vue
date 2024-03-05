@@ -50,6 +50,7 @@
       <div class="icon-area">
         <figure><img src="../assets/images/skills/python.png" alt="html"><figcaption>Python</figcaption></figure>
         <figure><img src="../assets/images/skills/ts-logo.webp" alt="html"><figcaption>Typescript</figcaption></figure>
+        <figure><img src="../assets/images/skills/java.png" alt="html"><figcaption>Java</figcaption></figure>
         <figure><img src="../assets/images/skills/php.png" alt="html"><figcaption>PHP</figcaption></figure>
         <figure><img src="../assets/images/skills/html.png" alt="html"><figcaption>HTML</figcaption></figure>
         <figure><img src="../assets/images/skills/css.png" alt="css"><figcaption>CSS</figcaption></figure>
