@@ -4,13 +4,15 @@
 
     <div class="quolifications">
       <h3>- Quolifications -</h3>
-      <figure><img src="../assets/images/skills/CSM-logo.png" alt="Certified_ScrumMaster"><figcaption>スクラムマスター</figcaption></figure>
-      <figure><img src="../assets/images/skills/SAA-logo.png" alt="AWS_Certified_Solutions_Architect"><figcaption>AWSソリューションアーキテクト</figcaption></figure>
-      <figure><img src="../assets/images/skills/AP-logo.png" alt="Applied_Information_Technology_Engineer"><figcaption>応用情報技術者</figcaption></figure>
-      <figure><img src="../assets/images/skills/FE-logo.png" alt="Fundamental_Engineer"><figcaption>基本情報技術者</figcaption></figure>
-      <figure><img src="../assets/images/skills/LPIC-1-logo.png" alt="LPIC_1"><figcaption>LPIC-1</figcaption></figure>
-      <figure><img src="../assets/images/skills/OCJP-silver-logo.webp" alt="Oracle_Certified_Java_Programmer_Silver"><figcaption>OCJP-Silver</figcaption></figure>
-      <figure><img src="../assets/images/skills/tokei-kentei-4-logo.png" alt="Japan_Statistical_Society_Certificate_4"><figcaption>統計検定4級</figcaption></figure>
+      <div class="icon-area" style="display:flex">
+        <figure><img src="../assets/images/skills/CSM-logo.png" alt="Certified_ScrumMaster"><figcaption>Certified ScrumMaster</figcaption></figure>
+        <figure><img src="../assets/images/skills/SAA-logo.png" alt="AWS_Certified_Solutions_Architect"><figcaption>AWS-SAA</figcaption></figure>
+        <figure><img src="../assets/images/skills/AP-logo.png" alt="Applied_Information_Technology_Engineer"><figcaption>応用情報技術者</figcaption></figure>
+        <figure><img src="../assets/images/skills/FE-logo.png" alt="Fundamental_Engineer"><figcaption>基本情報技術者</figcaption></figure>
+        <figure><img src="../assets/images/skills/LPIC-1-logo.png" alt="LPIC_1"><figcaption>LPIC-1</figcaption></figure>
+        <figure><img src="../assets/images/skills/OCJP-silver-logo.webp" alt="Oracle_Certified_Java_Programmer_Silver"><figcaption>OCJP-Silver</figcaption></figure>
+        <figure><img src="../assets/images/skills/tokei-kentei-4-logo.png" alt="Japan_Statistical_Society_Certificate_4"><figcaption>統計検定4級</figcaption></figure>
+      </div>
     </div>
 
     <div class="activity">
