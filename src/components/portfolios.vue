@@ -13,8 +13,8 @@
               <p class="panel-skill">AI model : LightGBM, LSTM, k-means</p>
               <br>
               <a href="https://r-club.jp/index.php/" class="panel-link">Website</a>
-              <a href="https://github.com/Naoya-Yasuda/MANABI_DX_QUEST_2023_PrePoC" class="panel-link github-link">Github</a>
-              <p class="panel-text-mini">※機密保護の観点から資料はマスク済。Git上にはデータはなく、notebookの出力も管理しないように設定済。</p>
+              <a href="https://github.com/Naoya-Yasuda/MANABI_DX_QUEST_2023_PrePoC" class="panel-link github-link">GitHub</a>
+              <p class="panel-text-mini">※機密保護の観点から資料はマスク済。Git上にはデータ、notebookの出力を管理しないように設定済。</p>
             </div>
           </li>
 
@@ -31,13 +31,15 @@
           </li>
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/JTB_panel.jpg"  alt="JTB">
+            <img class="panel-img" src="../assets/images/portfolios/HackU_panel.png"  alt="OpenHackU">
             <div class="panel-content">
-              <p class="panel-title">JTB公式サイト刷新</p>
-              <p class="panel-text">保守フェーズにて主に画面側を担当</p>
-              <p class="panel-lang">Languages : HTML, CSS, JS, Java</p>
+              <p class="panel-title">Open Hack U 2023 ONLINE<br>盲導犬スマホアプリ</p>
+              <p class="panel-text">サイバー大学の3名で参加<br>リーダーとして主に開発・事務局への解説を担当<br>最優秀賞と参加者投票による賞をW受賞</p>
+              <p class="panel-lang">Languages : Flutter Dart</p>
               <br>
-              <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
+              <a href="https://hacku.yahoo.co.jp/hacku2023_online/index.html" class="panel-link">Website</a>
+              <a href="https://www.youtube.com/live/PAsUW8Uk5JM?si=aWKECx11UTioCvgk&t=3196" class="panel-link">Youtube</a>
+              <a href="https://github.com/Naoya-Yasuda/HackU2023_project" class="panel-link">GitHub</a>
             </div>
           </li>
 
@@ -48,7 +50,29 @@
               <p class="panel-text">当サイト、Vue.jsを用いて作成。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
               <br>
-              <a href="https://github.com/Naoya-Yasuda/portfolio2" class="panel-link github-link">Github</a>
+              <a href="https://github.com/Naoya-Yasuda/portfolio2" class="panel-link github-link">GitHub</a>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/sodan.jpg"  alt="相談システム">
+            <div class="panel-content">
+              <p class="panel-title">相談システム</p>
+              <p class="panel-text">開発リーダーとして顧客折衝、AIによるリスクキーワード抽出、LINE周りのバックエンド開発、BtoB向けメイン画面、メール相談機能を開発</p>
+              <p class="panel-lang">Languages : Python, HTML, CSS, JS(Vue.js) PHP</p>
+              <br>
+              <a href="https://yorisoi-chat.jp/" class="panel-link github-link">Website</a>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/JTB_panel.jpg"  alt="JTB">
+            <div class="panel-content">
+              <p class="panel-title">JTB公式サイト刷新</p>
+              <p class="panel-text">保守フェーズにて主に画面側を担当</p>
+              <p class="panel-lang">Languages : HTML, CSS, JS, Java</p>
+              <br>
+              <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
             </div>
           </li>
 
