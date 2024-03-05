@@ -39,7 +39,7 @@
               <br>
               <a href="https://hacku.yahoo.co.jp/hacku2023_online/index.html" class="panel-link">Website</a>
               <a href="https://www.youtube.com/live/PAsUW8Uk5JM?si=aWKECx11UTioCvgk&t=3196" class="panel-link">Youtube</a>
-              <a href="https://github.com/Naoya-Yasuda/HackU2023_project" class="panel-link">GitHub</a>
+              <a href="https://github.com/Naoya-Yasuda/HackU2023_project" class="panel-link github-link">GitHub</a>
             </div>
           </li>
 
@@ -55,13 +55,24 @@
           </li>
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/sodan.jpg"  alt="相談システム">
+            <img class="panel-img" src="../assets/images/portfolios/modoken.jpg"  alt="相談システム">
             <div class="panel-content">
               <p class="panel-title">相談システム</p>
               <p class="panel-text">開発リーダーとして顧客折衝、AIによるリスクキーワード抽出、LINE周りのバックエンド開発、BtoB向けメイン画面、メール相談機能を開発</p>
               <p class="panel-lang">Languages : Python, HTML, CSS, JS(Vue.js) PHP</p>
+              <p class="panel-lang">AI : Mecab, TF-IDF</p>
               <br>
-              <a href="https://yorisoi-chat.jp/" class="panel-link github-link">Website</a>
+              <a href="https://yorisoi-chat.jp/" class="panel-link">Website</a>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/IY.jpg"  alt="IY">
+            <div class="panel-content">
+              <p class="panel-title">イトーヨーカドー勤怠管理・作業割当システム</p>
+              <p class="panel-text">ph1ではフロントエンドテックリード。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
+              <p class="panel-lang">Languages : HTML, CSS, TS(Angular) Java(Spring Boot, SpringBatch)</p>
+              <br>
             </div>
           </li>
 
