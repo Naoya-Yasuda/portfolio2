@@ -108,7 +108,7 @@
             <img class="panel-img" src="../assets/images/portfolios/jtb.jpg"  alt="JTB">
             <div class="panel-content">
               <p class="panel-title">JTB公式サイト刷新</p>
-              <p class="panel-text">保守フェーズにて主に画面側を担当</p>
+              <p class="panel-text">保守フェーズにて主に画面側を担当。刷新フェーズの結合テストも担当。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS, Java(Spring)</p>
               <br>
               <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
@@ -127,11 +127,20 @@
           </li>
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/test.jpg"  alt="test-team">
+            <img class="panel-img" src="../assets/images/portfolios/test.png"  alt="test-team">
             <div class="panel-content">
               <p class="panel-title">郵便局窓口端末テスト案件</p>
               <p class="panel-text">優秀なテストチーム内で半年間テストのイロハを教わる。結合テスト仕様書作成・実施、テスト観点作成、シナリオテスト実施</p>
               <p class="panel-lang">Tools : Excel</p>
+              <br>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/monitor.jpg"  alt="fox">
+            <div class="panel-content">
+              <p class="panel-title">FOX TV保守運用</p>
+              <p class="panel-text">サーバーと放送の監視・障害対応。協力会社のリーダーとしてメンバー教育、シフト管理を実施。</p>
               <br>
             </div>
           </li>
