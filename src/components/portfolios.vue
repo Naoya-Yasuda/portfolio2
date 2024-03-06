@@ -206,7 +206,9 @@
   }
 
   .panel-content {
-    height: calc(100%-240px);
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 284px);
     padding: 20px;
   }
 
