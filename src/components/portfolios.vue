@@ -93,7 +93,7 @@
             <img class="panel-img" src="../assets/images/portfolios/mingin.jpeg"  alt="netbanking">
             <div class="panel-content">
               <p class="panel-title">みんなの銀行<br>ネット銀行スマホアプリ</p>
-              <p class="panel-text">accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数万ユーザ想定のデータ作成、テストを実施。</p>
+              <p class="panel-text">accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数百万ユーザ想定のデータ作成、テストを実施。</p>
               <p class="panel-lang">Languages : Java(Spring Batch)</p>
               <p class="panel-lang">Cloud : GCP(DataFlow, Spanner), Azure, Datadog</p>
               <p class="panel-lang">Special Note : 大規模アジャイル、マイクロサービス、gRPC</p>
