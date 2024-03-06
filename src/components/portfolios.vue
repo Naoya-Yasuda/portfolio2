@@ -156,6 +156,10 @@
   }
 
   .portfolios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     list-style-type: none;
     padding-left: 0;
     padding-left: 5%;

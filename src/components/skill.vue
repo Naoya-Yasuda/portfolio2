@@ -28,7 +28,7 @@
     </div>
 
     <div class="data science">
-      <h3>- Data Science -</h3>
+      <h3>- Data Science ・ AI -</h3>
       <div class="icon-area">
         <figure><img src="../assets/images/skills/scikit.webp" alt="Scikit_Learn"><figcaption>Scikit Learn</figcaption></figure>
         <figure><img src="../assets/images/skills/pytorch.png" alt="Pytorch"><figcaption>Pytorch</figcaption></figure>
