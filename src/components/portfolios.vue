@@ -206,6 +206,7 @@
   }
 
   .panel-content {
+    height: calc(100%-240px);
     padding: 20px;
   }
 
@@ -245,6 +246,10 @@
   .github-link{
     border-color: #171515;
     color: #171515;
+  }
+
+  .panel-buttons{
+    margin-top: auto;
   }
 
   @media (max-width: 767px) {
