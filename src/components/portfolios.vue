@@ -12,9 +12,11 @@
               <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
               <p class="panel-skill">AI model : LightGBM, LSTM, K-Means</p>
               <br>
-              <a href="https://r-club.jp/index.php/" class="panel-link">Website</a>
-              <a href="https://github.com/Naoya-Yasuda/MANABI_DX_QUEST_2023_PrePoC" class="panel-link github-link">GitHub</a>
-              <p class="panel-text-mini">※機密保護の観点から資料はマスク済。Git上にはデータ、notebookの出力を管理しないように設定済。</p>
+              <div class="panel-buttons">
+                <a href="https://r-club.jp/index.php/" class="panel-link">Website</a>
+                <a href="https://github.com/Naoya-Yasuda/MANABI_DX_QUEST_2023_PrePoC" class="panel-link github-link">GitHub</a>
+                <p class="panel-text-mini">※機密保護の観点から資料はマスク済。Git上にはデータ、notebookの出力を管理しないように設定済。</p>
+              </div>
             </div>
           </li>
 
@@ -26,7 +28,9 @@
               <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
               <p class="panel-skill">AI model : LightGBM</p>
               <br>
-              <a href="https://dxq.manabi-dx.ipa.go.jp/" class="panel-link">Website</a>
+              <div class="panel-buttons">
+                <a href="https://dxq.manabi-dx.ipa.go.jp/" class="panel-link">Website</a>
+              </div>
             </div>
           </li>
 
@@ -38,9 +42,11 @@
               <p class="panel-lang">Languages : Flutter Dart</p>
               <p class="panel-skill">AI model : YOLO_v2</p>
               <br>
-              <a href="https://hacku.yahoo.co.jp/hacku2023_online/index.html" class="panel-link">Website</a>
-              <a href="https://www.youtube.com/live/PAsUW8Uk5JM?si=aWKECx11UTioCvgk&t=3196" class="panel-link">Youtube</a>
-              <a href="https://github.com/Naoya-Yasuda/HackU2023_project" class="panel-link github-link">GitHub</a>
+              <div class="panel-buttons">
+                <a href="https://hacku.yahoo.co.jp/hacku2023_online/index.html" class="panel-link">Website</a>
+                <a href="https://www.youtube.com/live/PAsUW8Uk5JM?si=aWKECx11UTioCvgk&t=3196" class="panel-link">Youtube</a>
+                <a href="https://github.com/Naoya-Yasuda/HackU2023_project" class="panel-link github-link">GitHub</a>
+              </div>
             </div>
           </li>
 
@@ -52,7 +58,9 @@
               <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
               <p class="panel-lang">Deployment : GitHub Pages</p>
               <br>
-              <a href="https://github.com/Naoya-Yasuda/portfolio2" class="panel-link github-link">GitHub</a>
+              <div class="panel-buttons">
+                <a href="https://github.com/Naoya-Yasuda/portfolio2" class="panel-link github-link">GitHub</a>
+              </div>
             </div>
           </li>
 
@@ -65,7 +73,9 @@
               <p class="panel-lang">AI : Mecab, TF-IDF</p>
               <p class="panel-lang">Cloud : AWS(EC2, S3)</p>
               <br>
-              <a href="https://yorisoi-chat.jp/" class="panel-link">Website</a>
+              <div class="panel-buttons">
+                <a href="https://yorisoi-chat.jp/" class="panel-link">Website</a>
+              </div>
             </div>
           </li>
 
@@ -88,7 +98,9 @@
               <p class="panel-lang">Cloud : GCP(DataFlow, Spanner), Azure, Datadog</p>
               <p class="panel-lang">Special Note : 大規模アジャイル、マイクロサービス、gRPC</p>
               <br>
-              <a href="https://www.minna-no-ginko.com/" class="panel-link">Website</a>
+              <div class="panel-buttons">
+                <a href="https://www.minna-no-ginko.com/" class="panel-link">Website</a>
+              </div>
             </div>
           </li>
 
@@ -100,7 +112,9 @@
               <p class="panel-lang">Languages : TS(Angular), Java(Spring Boot)</p>
               <p class="panel-lang">Cloud : GCP</p>
               <br>
-              <a href="https://www.accenture.com/jp-ja/services/software-engineering/accenture-connected-technology-solution" class="panel-link">Website</a>
+              <div class="panel-buttons">
+                <a href="https://www.accenture.com/jp-ja/services/software-engineering/accenture-connected-technology-solution" class="panel-link">Website</a>
+              </div>
             </div>
           </li>
 
@@ -111,7 +125,9 @@
               <p class="panel-text">保守フェーズにて主に画面側を担当。刷新フェーズの結合テストも担当。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS, Java(Spring)</p>
               <br>
-              <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
+              <div class="panel-buttons">
+                <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
+              </div>
             </div>
           </li>
 
@@ -122,7 +138,9 @@
               <p class="panel-text">技研の余った予算でパートナー企業の人材を育てて一緒に働く人材にしようという実験的試み。社内ツールを作成しかなり技術的に成長した。</p>
               <p class="panel-lang">Languages : HTML, SCSS, JS(Vue.js), Java(Spring Boot)</p>
               <br>
-              <a href="https://www.nssol.nipponsteel.com/ss/bxdc/" class="panel-link">Website</a>
+              <div class="panel-buttons">
+                <a href="https://www.nssol.nipponsteel.com/ss/bxdc/" class="panel-link">Website</a>
+              </div>
             </div>
           </li>
 
