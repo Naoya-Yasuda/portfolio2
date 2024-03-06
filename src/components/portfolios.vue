@@ -73,7 +73,7 @@
             <img class="panel-img" src="../assets/images/portfolios/IY.jpg"  alt="IY">
             <div class="panel-content">
               <p class="panel-title">イトーヨーカドー<br>勤怠管理・作業割当システム</p>
-              <p class="panel-text">Accenture案件 ph1ではフロントエンドテックリード。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
+              <p class="panel-text">accenture案件 ph1ではフロントエンドテックリード。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
               <p class="panel-lang">Languages : HTML, SCSS, TS(Angular) Java(Spring Boot, Spring Batch)</p>
               <br>
             </div>
@@ -83,7 +83,7 @@
             <img class="panel-img" src="../assets/images/portfolios/mingin.jpeg"  alt="netbanking">
             <div class="panel-content">
               <p class="panel-title">みんなの銀行<br>ネット銀行スマホアプリ</p>
-              <p class="panel-text">Accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数万ユーザ想定のデータ作成、テストを実施。</p>
+              <p class="panel-text">accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数万ユーザ想定のデータ作成、テストを実施。</p>
               <p class="panel-lang">Languages : Java(Spring Batch)</p>
               <p class="panel-lang">Cloud : GCP(DataFlow, Spanner), Azure, Datadog</p>
               <p class="panel-lang">Special Note : 大規模アジャイル、マイクロサービス、gRPC</p>
@@ -93,13 +93,46 @@
           </li>
 
           <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/accenture.jpg"  alt="ACTStraining">
+            <div class="panel-content">
+              <p class="panel-title">accenture<br>社内トレーニング(ACTS)</p>
+              <p class="panel-text">accentureとの契約第一号となるべく他社との混合チームで参加。保険会社のシステム刷新のPBLについて独自定義されたACTSという手法でスクラム開発し評価される。2位通過で無事案件獲得に繋がった。</p>
+              <p class="panel-lang">Languages : TS(Angular), Java(Spring Boot)</p>
+              <p class="panel-lang">Cloud : GCP</p>
+              <br>
+              <a href="https://www.accenture.com/jp-ja/services/software-engineering/accenture-connected-technology-solution" class="panel-link">Website</a>
+            </div>
+          </li>
+
+          <li class="panel">
             <img class="panel-img" src="../assets/images/portfolios/jtb.jpg"  alt="JTB">
             <div class="panel-content">
               <p class="panel-title">JTB公式サイト刷新</p>
               <p class="panel-text">保守フェーズにて主に画面側を担当</p>
-              <p class="panel-lang">Languages : HTML, CSS, JS, Java</p>
+              <p class="panel-lang">Languages : HTML, CSS, JS, Java(Spring)</p>
               <br>
               <a href="https://www.jtb.co.jp/" class="panel-link">Website</a>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/agile.jpg"  alt="agile">
+            <div class="panel-content">
+              <p class="panel-title">NSSOLアジャイル人材育成案件</p>
+              <p class="panel-text">技研の余った予算でパートナー企業の人材を育てて一緒に働く人材にしようという実験的試み。社内ツールを作成しかなり技術的に成長した。</p>
+              <p class="panel-lang">Languages : HTML, SCSS, JS(Vue.js), Java(Spring Boot)</p>
+              <br>
+              <a href="https://www.nssol.nipponsteel.com/ss/bxdc/" class="panel-link">Website</a>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/test.jpg"  alt="test-team">
+            <div class="panel-content">
+              <p class="panel-title">郵便局窓口端末テスト案件</p>
+              <p class="panel-text">優秀なテストチーム内で半年間テストのイロハを教わる。結合テスト仕様書作成・実施、テスト観点作成、シナリオテスト実施</p>
+              <p class="panel-lang">Tools : Excel</p>
+              <br>
             </div>
           </li>
 
