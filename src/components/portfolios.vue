@@ -8,9 +8,9 @@
             <object class="panel-img" data="/portfolio2/img/MDXQ2023_slide.pdf" type="application/pdf"></object>
             <div class="panel-content">
               <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析</p>
-              <p class="panel-text">東北のグループ企業との協働。現状把握・問題整理からEDAを実施し課題と打ち手を設定しPoCを実施。提案資料を作成。有償契約調整中</p>
+              <p class="panel-text">東北のグループ企業との協働。ヒアリングからの現状分析、EDA、打ち手設定、PoCを実施。提案資料を作成し現在は有償契約調整中</p>
               <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
-              <p class="panel-skill">AI model : LightGBM, LSTM, k-means</p>
+              <p class="panel-skill">AI model : LightGBM, LSTM, K-Means</p>
               <br>
               <a href="https://r-club.jp/index.php/" class="panel-link">Website</a>
               <a href="https://github.com/Naoya-Yasuda/MANABI_DX_QUEST_2023_PrePoC" class="panel-link github-link">GitHub</a>
@@ -50,6 +50,7 @@
               <p class="panel-title">ポートフォリオサイト</p>
               <p class="panel-text">当サイト、Vue.jsを用いて作成。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
+              <p class="panel-lang">Deployment : GitHub Pages</p>
               <br>
               <a href="https://github.com/Naoya-Yasuda/portfolio2" class="panel-link github-link">GitHub</a>
             </div>
@@ -62,6 +63,7 @@
               <p class="panel-text">開発リーダーとして顧客折衝、AIによるリスクキーワード抽出、LINE周りのバックエンド開発、BtoB向けメイン画面、メール相談機能を開発</p>
               <p class="panel-lang">Languages : Python, HTML, CSS, JS(Vue.js) PHP</p>
               <p class="panel-lang">AI : Mecab, TF-IDF</p>
+              <p class="panel-lang">Cloud : AWS(EC2, S3)</p>
               <br>
               <a href="https://yorisoi-chat.jp/" class="panel-link">Website</a>
             </div>
@@ -71,14 +73,27 @@
             <img class="panel-img" src="../assets/images/portfolios/IY.jpg"  alt="IY">
             <div class="panel-content">
               <p class="panel-title">イトーヨーカドー<br>勤怠管理・作業割当システム</p>
-              <p class="panel-text">ph1ではフロントエンドテックリード。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
-              <p class="panel-lang">Languages : HTML, CSS, TS(Angular) Java(Spring Boot, SpringBatch)</p>
+              <p class="panel-text">Accenture案件 ph1ではフロントエンドテックリード。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
+              <p class="panel-lang">Languages : HTML, SCSS, TS(Angular) Java(Spring Boot, Spring Batch)</p>
               <br>
             </div>
           </li>
 
           <li class="panel">
-            <img class="panel-img" src="../assets/images/portfolios/JTB_panel.jpg"  alt="JTB">
+            <img class="panel-img" src="../assets/images/portfolios/mingin.jpeg"  alt="netbanking">
+            <div class="panel-content">
+              <p class="panel-title">みんなの銀行<br>ネット銀行スマホアプリ</p>
+              <p class="panel-text">Accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数万ユーザ想定のデータ作成、テストを実施。</p>
+              <p class="panel-lang">Languages : Java(Spring Batch)</p>
+              <p class="panel-lang">Cloud : GCP(DataFlow, Spanner), Azure, Datadog</p>
+              <p class="panel-lang">Special Note : 大規模アジャイル、マイクロサービス、gRPC</p>
+              <br>
+              <a href="https://www.minna-no-ginko.com/" class="panel-link">Website</a>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/jtb.jpg"  alt="JTB">
             <div class="panel-content">
               <p class="panel-title">JTB公式サイト刷新</p>
               <p class="panel-text">保守フェーズにて主に画面側を担当</p>
@@ -146,6 +161,8 @@
 
   .panel-text-mini{
     font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 12px;
   }
 
   .panel-link{

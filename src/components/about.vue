@@ -69,7 +69,7 @@
               <p class="term">2023.04 〜 2025.09予定
               </p>
               <p class="headline">サイバー大学</p>
-              <p class="description">AIテクノロジーコース在籍<br>2024/04より自然言語の研究室配属</p>
+              <p class="description">AIテクノロジーコース在籍<br>2024/04より自然言語処理の研究室配属</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
