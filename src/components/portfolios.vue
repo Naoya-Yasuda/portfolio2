@@ -54,7 +54,7 @@
             <img class="panel-img" src="../assets/images/portfolios/portfolio_panel.png"  alt="ポートフォリオ">
             <div class="panel-content">
               <p class="panel-title">ポートフォリオサイト</p>
-              <p class="panel-text">当サイト、Vue.jsを用いて作成。</p>
+              <p class="panel-text">当サイト、Vue.jsを用いて作成。レスポンシブデザイン対応。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
               <p class="panel-lang">Deployment : GitHub Pages</p>
               <br>
