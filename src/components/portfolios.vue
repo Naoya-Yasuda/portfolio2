@@ -83,7 +83,7 @@
             <img class="panel-img" src="../assets/images/portfolios/IY.jpg"  alt="IY">
             <div class="panel-content">
               <p class="panel-title">イトーヨーカドー<br>勤怠管理・作業割当システム</p>
-              <p class="panel-text">accenture案件 ph1ではフロントエンドテックリード。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
+              <p class="panel-text">accenture案件 ph1ではフロントエンドテックリードとして全画面のデザイン統一や認証認可を担当。ph2ではメイン機能である作業割当のバックエンドを担当。</p>
               <p class="panel-lang">Languages : HTML, SCSS, TS(Angular) Java(Spring Boot, Spring Batch)</p>
               <br>
             </div>

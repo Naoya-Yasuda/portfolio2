@@ -5,6 +5,7 @@
     <div class="quolifications">
       <h3>- Quolifications -</h3>
       <div class="icon-area">
+        <figure><img src="../assets/images/skills/E-shikaku.png" alt="JDLA_Deep_Learning_for_ENGINEER"><figcaption>E資格</figcaption></figure>
         <figure><img src="../assets/images/skills/CSM-logo.png" alt="Certified_ScrumMaster"><figcaption>Certified ScrumMaster</figcaption></figure>
         <figure><img src="../assets/images/skills/SAA-logo.png" alt="AWS_Certified_Solutions_Architect"><figcaption>AWS-SAA</figcaption></figure>
         <figure><img src="../assets/images/skills/AP-logo.png" alt="Applied_Information_Technology_Engineer"><figcaption>応用情報技術者</figcaption></figure>
