@@ -5,7 +5,7 @@
     <h3 class="contact_message">Please choise contact tool as you like ...</h3>
 
     <div class="link">
-      <a href="2301330039zz@cyber-u.ac.jp" class="icon-link"><font-awesome-icon icon="envelope" class="awesome-icon mail"/></a>
+      <a href="mailto:2301330039zz@cyber-u.ac.jp" class="icon-link"><font-awesome-icon icon="envelope" class="awesome-icon mail"/></a>
       <a href="https://github.com/Naoya-Yasuda" class="icon-link"><font-awesome-icon :icon="['fab','github']" class="awesome-icon github"/></a>
       <a href="https://www.facebook.com/naoya.yasuda.39" class="icon-link"><font-awesome-icon :icon="['fab','facebook']" class="awesome-icon facebook"/></a>
       <a href="https://twitter.com/yasutyNhoffman/" class="icon-link"><font-awesome-icon :icon="['fab','twitter']" class="awesome-icon twitter"/></a>
