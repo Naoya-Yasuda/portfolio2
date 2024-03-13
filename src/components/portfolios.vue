@@ -5,6 +5,19 @@
         <ul class="portfolios">
 
           <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/EV.jpg"  alt="EV-car">
+            <div class="panel-content">
+              <p class="panel-title">自動車販売店向け営業支援システム開発</p>
+              <p class="panel-text">EV車の提案資料作成APIの設計書作成、製造、テスト</p>
+              <p class="panel-lang">Languages : Python</p>
+              <p class="panel-skill">Cloud : AWS(Lambda, SQS, Fargate)</p>
+              <br>
+              <div class="panel-buttons">
+              </div>
+            </div>
+          </li>
+
+          <li class="panel">
             <object class="panel-img" data="/portfolio2/img/MDXQ2023_slide.pdf" type="application/pdf"></object>
             <div class="panel-content">
               <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析</p>
@@ -96,7 +109,7 @@
               <p class="panel-text">accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数百万ユーザ想定のデータ作成、テストを実施。</p>
               <p class="panel-lang">Languages : Java(Spring Batch)</p>
               <p class="panel-lang">Cloud : GCP(DataFlow, Spanner), Azure, Datadog</p>
-              <p class="panel-lang">Special Note : 大規模アジャイル、マイクロサービス、gRPC</p>
+              <p class="panel-lang">Special Note : 大規模アジャイル、マイクロサービス、gRPC、マルチスレッド</p>
               <br>
               <div class="panel-buttons">
                 <a href="https://www.minna-no-ginko.com/" class="panel-link">Website</a>
