@@ -73,6 +73,16 @@
           </span>
           <p class="circle responsive_pc"></p>
         </li>
+        <li>
+          <p class="circle responsive_notpc"></p>
+          <span class="txt">
+              <p class="term">2024.02 〜 現在
+              </p>
+              <p class="headline">AI to EYE CONTACTS (アイトゥアイコンタクツ)</p>
+              <p class="description">個人事業を開業<br>フリーランスとして活動中</p>
+          </span>
+          <p class="circle responsive_pc"></p>
+        </li>
 
       </ul>
     </div>
