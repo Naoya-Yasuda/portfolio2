@@ -7,7 +7,7 @@
           <li class="panel">
             <img class="panel-img" src="../assets/images/portfolios/EV.jpg"  alt="EV-car">
             <div class="panel-content">
-              <p class="panel-title">自動車販売店向け営業支援システム開発</p>
+              <p class="panel-title">自動車業界向け 営業支援ツール開発</p>
               <p class="panel-text">EV車の提案資料作成APIの設計書作成、製造、テスト</p>
               <p class="panel-lang">Languages : Python</p>
               <p class="panel-skill">Cloud : AWS(Lambda, SQS, Fargate)</p>
