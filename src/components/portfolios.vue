@@ -8,9 +8,9 @@
             <img class="panel-img" src="../assets/images/portfolios/EV.jpg"  alt="EV-car">
             <div class="panel-content">
               <p class="panel-title">自動車業界向け<br>営業支援ツール開発</p>
-              <p class="panel-text">EV車の提案資料作成APIの設計書作成、製造、テスト</p>
+              <p class="panel-text">DynamoDBのテーブル設計、提案資料作成APIの設計書作成、製造、テスト</p>
               <p class="panel-lang">Languages : Python</p>
-              <p class="panel-skill">Cloud : AWS(Lambda, SQS, Fargate)</p>
+              <p class="panel-skill">Cloud : AWS(Lambda, DynamoDB, Cognito, API Gateway, SQS, Fargate)</p>
               <br>
               <div class="panel-buttons">
               </div>

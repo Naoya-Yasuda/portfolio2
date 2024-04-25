@@ -69,7 +69,7 @@
               <p class="term">2023.04 〜 2025.09卒業予定
               </p>
               <p class="headline">サイバー大学</p>
-              <p class="description">AIテクノロジーコース在籍<br>2024/04より自然言語処理の研究室配属</p>
+              <p class="description">AIテクノロジーコース在籍<br>2024/04より自然言語処理のゼミナール配属</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -80,6 +80,16 @@
               </p>
               <p class="headline">AI to EYE CONTACTS</p>
               <p class="description">個人事業を開業<br>フリーランスとして活動中</p>
+          </span>
+          <p class="circle responsive_pc"></p>
+        </li>
+        <li>
+          <p class="circle responsive_notpc"></p>
+          <span class="txt">
+              <p class="term">2024.06 〜 予定
+              </p>
+              <p class="headline">国家公務員のデータアナリスト</p>
+              <p class="description">非常勤（週1から）勤務開始予定</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
