@@ -88,8 +88,8 @@
           <span class="txt">
               <p class="term">2024.06 〜 予定
               </p>
-              <p class="headline">国家公務員のデータアナリスト</p>
-              <p class="description">非常勤（週1から）勤務開始予定</p>
+              <p class="headline">官公庁系データアナリスト</p>
+              <p class="description">非常勤の国家公務員として勤務開始予定</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
