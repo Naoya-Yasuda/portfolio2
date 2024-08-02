@@ -5,12 +5,52 @@
         <ul class="portfolios">
 
           <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/MDXQ2023.png"  alt="マナビDXクエスト">
+            <div class="panel-content">
+              <p class="panel-title">官公庁系<br>IT全般の支援・調査</p>
+              <p class="panel-text">クラウド調達, スクレイピング, データ基盤構築, CMSによるHPの更新</p>
+              <p class="panel-lang">Languages : Python</p>
+              <p class="panel-skill">Cloud : AWS</p>
+              <br>
+              <div class="panel-buttons">
+              </div>
+            </div>
+          </li>
+
+          <li class="panel">
             <img class="panel-img" src="../assets/images/portfolios/EV.jpg"  alt="EV-car">
             <div class="panel-content">
-              <p class="panel-title">自動車業界向け<br>営業支援ツール開発</p>
-              <p class="panel-text">DynamoDBのテーブル設計、提案資料作成APIの設計書作成、製造、テスト</p>
+              <p class="panel-title">自動車業界向け<br>グラフ機能python3.12セキュリティ対応</p>
+              <p class="panel-text">グラフ作成APIの対応案調査・評価、製造、テスト</p>
               <p class="panel-lang">Languages : Python</p>
-              <p class="panel-skill">Cloud : AWS(Lambda, DynamoDB, Cognito, API Gateway, SQS, Fargate)</p>
+              <p class="panel-lang">Library : matplotlib, selenium, PhantomJS</p>
+              <p class="panel-skill">Cloud : AWS(Lambda, S3, ECR, AWS SAM)</p>
+              <br>
+              <div class="panel-buttons">
+              </div>
+            </div>
+          </li>
+
+          <li class="panel">
+            <object class="panel-img" data="/portfolio2/img/MDXQ2023_slide.pdf" type="application/pdf"></object>
+            <div class="panel-content">
+              <p class="panel-title">東北のグループ企業のDX推進（マナビDXQ2023から有償化）</p>
+              <p class="panel-text">データ基盤構築・GA4導入支援・ダッシュボード作成</p>
+              <p class="panel-skill">Cloud : AWS, Google Analytics</p>
+              <br>
+              <div class="panel-buttons">
+                <a href="https://dxq.manabi-dx.ipa.go.jp/" class="panel-link">Website</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/EV.jpg"  alt="EV-car">
+            <div class="panel-content">
+              <p class="panel-title">自動車業界向け<br>営業支援アプリ開発</p>
+              <p class="panel-text">DynamoDBのテーブル設計、ヒアリング資料に関するAPIの設計書作成、製造、UT・IT</p>
+              <p class="panel-lang">Languages : Python</p>
+              <p class="panel-skill">Cloud : AWS(Lambda, DynamoDB, Cognito, API Gateway, SQS, S3)</p>
               <br>
               <div class="panel-buttons">
               </div>
@@ -21,7 +61,7 @@
             <object class="panel-img" data="/portfolio2/img/MDXQ2023_slide.pdf" type="application/pdf"></object>
             <div class="panel-content">
               <p class="panel-title">マナビDX Quest 2023<br>スマホアプリデータ分析</p>
-              <p class="panel-text">東北のグループ企業との協働。ヒアリングからの現状分析、EDA、打ち手設定、PoCを実施。提案資料を作成し現在は有償契約調整中</p>
+              <p class="panel-text">東北のグループ企業との協働。ヒアリングからの現状分析、EDA、打ち手設定、PoCを実施。提案資料を作成し現在は有償契約</p>
               <p class="panel-lang">Languages : Python, Jupyter Notebook</p>
               <p class="panel-skill">AI model : LightGBM, LSTM, K-Means</p>
               <br>
@@ -69,7 +109,7 @@
               <p class="panel-title">ポートフォリオサイト</p>
               <p class="panel-text">当サイト、Vue.jsを用いて作成。<br>レスポンシブデザイン対応。</p>
               <p class="panel-lang">Languages : HTML, CSS, JS(Vue.js)</p>
-              <p class="panel-lang">Deployment : GitHub Pages</p>
+              <p class="panel-skill">Deployment : GitHub Pages</p>
               <br>
               <div class="panel-buttons">
                 <a href="https://github.com/Naoya-Yasuda/portfolio2" class="panel-link github-link">GitHub</a>
@@ -83,8 +123,8 @@
               <p class="panel-title">相談システム</p>
               <p class="panel-text">開発リーダーとして顧客折衝、AIによるリスクキーワード抽出、LINE周りのバックエンド開発、BtoB向けメイン画面、メール相談機能を開発</p>
               <p class="panel-lang">Languages : Python, HTML, CSS, JS(Vue.js) PHP</p>
-              <p class="panel-lang">AI : Mecab, TF-IDF</p>
-              <p class="panel-lang">Cloud : AWS(EC2, S3)</p>
+              <p class="panel-skill">AI : Mecab, TF-IDF</p>
+              <p class="panel-skill">Cloud : AWS(EC2, S3)</p>
               <br>
               <div class="panel-buttons">
                 <a href="https://yorisoi-chat.jp/" class="panel-link">Website</a>

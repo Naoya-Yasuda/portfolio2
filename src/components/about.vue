@@ -69,7 +69,7 @@
               <p class="term">2023.04 〜 2025.09卒業予定
               </p>
               <p class="headline">サイバー大学</p>
-              <p class="description">AIテクノロジーコース在籍<br>2024/04より自然言語処理のゼミナール配属</p>
+              <p class="description">AIテクノロジーコース在籍<br>自然言語処理の田中頼人ゼミナール配属</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
@@ -86,10 +86,10 @@
         <li>
           <p class="circle responsive_notpc"></p>
           <span class="txt">
-              <p class="term">2024.06 〜 予定
+              <p class="term">2024.06 〜 現在
               </p>
-              <p class="headline">官公庁系データアナリスト</p>
-              <p class="description">非常勤の国家公務員として勤務開始予定</p>
+              <p class="headline">官公庁系デジタルアナリスト</p>
+              <p class="description">非常勤の国家公務員として勤務</p>
           </span>
           <p class="circle responsive_pc"></p>
         </li>
