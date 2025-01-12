@@ -5,10 +5,22 @@
         <ul class="portfolios">
 
           <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/EV.jpg"  alt="EV-car">
+            <div class="panel-content">
+              <p class="panel-title">自動車業界向け<br>AWS環境移行</p>
+              <p class="panel-text">カスタムAWS環境で車両データを管理・活用する基盤への移行要件、移行計画策定、移行実施</p>
+              <p class="panel-skill">Cloud : AWS(CloudFormations)</p>
+              <br>
+              <div class="panel-buttons">
+              </div>
+            </div>
+          </li>
+
+          <li class="panel">
             <img class="panel-img" src="../assets/images/portfolios/MDXQ2023.png"  alt="マナビDXクエスト">
             <div class="panel-content">
               <p class="panel-title">官公庁系<br>IT全般の支援・調査</p>
-              <p class="panel-text">クラウド調達, スクレイピング, データ基盤構築, CMSによるHPの更新</p>
+              <p class="panel-text">クラウド調達、 スクレイピング、 データ基盤構築、勉強会、CMSによるHPの更新</p>
               <p class="panel-lang">Languages : Python</p>
               <p class="panel-skill">Cloud : AWS</p>
               <br>
