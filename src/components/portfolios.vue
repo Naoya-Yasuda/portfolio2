@@ -30,6 +30,20 @@
           </li>
 
           <li class="panel">
+            <img class="panel-img" src="../assets/images/portfolios/MDXQ2023.png"  alt="官公庁系AWS・GitHub管理">
+            <div class="panel-content">
+              <p class="panel-title">官公庁系<br>AWS、GitHubの管理業務</p>
+              <p class="panel-text">クラウドインフラの設計・構築・運用、リポジトリ管理、アクセス権限設定、CI/CDパイプライン構築</p>
+              <p class="panel-lang">Languages : YAML, Shell Script</p>
+              <p class="panel-skill">Cloud : AWS(IAM, EC2, S3, CloudFormation)</p>
+              <p class="panel-skill">DevOps : GitHub Actions, CI/CD</p>
+              <br>
+              <div class="panel-buttons">
+              </div>
+            </div>
+          </li>
+
+          <li class="panel">
             <img class="panel-img" src="../assets/images/portfolios/EV.jpg"  alt="EV-car">
             <div class="panel-content">
               <p class="panel-title">自動車業界向け<br>グラフ機能python3.12セキュリティ対応</p>
