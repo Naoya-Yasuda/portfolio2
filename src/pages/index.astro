@@ -18,3 +18,18 @@ import Footer from '../components/Footer.astro';
   <Contact />
   <Footer />
 </BaseLayout>
+
+<script>
+  // h2アンダーラインアニメーション
+  const h2Observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('h2').forEach(h2 => {
+    h2Observer.observe(h2);
+  });
+</script>

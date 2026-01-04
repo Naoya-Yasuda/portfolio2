@@ -9,16 +9,34 @@
   <a href="#contact" class="link-content">Contact</a>
 </nav>
 
+<script>
+  const menubar = document.querySelector('.menubar') as HTMLElement;
+
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    // スクロール量に応じて透明度を変化（0.8 → 1.0）
+    const opacity = Math.min(0.8 + (scrollY / 500) * 0.2, 1);
+    // 背景色も少し暗くする
+    const darkness = Math.min(scrollY / 500, 0.3);
+
+    menubar.style.backgroundColor = `rgba(${Math.round(128 - darkness * 128)}, ${Math.round(128 - darkness * 128)}, ${Math.round(128 - darkness * 128)}, ${opacity})`;
+
+    // ボックスシャドウも強調
+    const shadowIntensity = Math.min(5 + scrollY / 100, 15);
+    menubar.style.boxShadow = `0 2px ${shadowIntensity}px rgba(0, 0, 0, ${0.3 + darkness})`;
+  });
+</script>
+
 <style>
   .menubar {
     text-align: center;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.8);
     position: fixed;
     height: 50px;
     width: 100%;
     z-index: 100;
-    opacity: 0.8;
-    box-shadow: 0 2px 5px #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     justify-content: center;
     align-items: center;

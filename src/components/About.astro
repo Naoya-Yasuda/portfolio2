@@ -9,7 +9,7 @@
     <tr><th>GitHub</th><th><a href="https://github.com/Naoya-Yasuda">Naoya-Yasuda</a></th></tr>
     <tr><th>Facebook</th><th><a href="https://www.facebook.com/naoya.yasuda.39">Naoya Yasuda</a></th></tr>
     <tr><th>Qiita</th><th><a href="https://qiita.com/2301330039zz">@2301330039zz</a></th></tr>
-    <tr><th>Twitter</th><th><a href="https://twitter.com/yasutyNhoffman/">@yasutyNhoffman</a></th></tr>
+    <tr><th>X</th><th><a href="https://x.com/yasutyNhoffman/">@yasutyNhoffman</a></th></tr>
     <tr><th>Mail</th><th>2301330039zz@cyber-u.ac.jp</th></tr>
   </table>
 
@@ -91,6 +91,21 @@
   </div>
 </section>
 
+<script>
+  // 経歴タイムラインのアニメーション
+  const careerObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  document.querySelectorAll('.career ul li').forEach(item => {
+    careerObserver.observe(item);
+  });
+</script>
+
 <style>
   .about-wrapper {
     text-align: center;
@@ -146,6 +161,7 @@
     padding: 0 15px;
   }
 
+  /* 文字部分(.txt)のスタイル */
   .career ul li .txt {
     width: 50%;
     box-sizing: border-box;
@@ -158,15 +174,36 @@
     flex-direction: row-reverse;
   }
 
+  .career ul li:nth-child(odd) .txt {
+    margin-left: 1px;
+  }
+
   .career ul li:nth-child(even) .txt {
     border-left: solid 2px gray;
     border-right: none;
     margin-right: 1px;
   }
 
-  .career ul li:nth-child(odd) .txt {
-    margin-left: 1px;
+  /* 内部テキストだけにアニメーション適用 */
+  .career ul li .txt p {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
+
+  .career ul li:nth-child(even) .txt p {
+    transform: translateX(-30px);
+  }
+
+  .career ul li.animate-in .txt p {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* 各pに順番にディレイをつける */
+  .career ul li .txt p:nth-child(1) { transition-delay: 0s; }
+  .career ul li .txt p:nth-child(2) { transition-delay: 0.1s; }
+  .career ul li .txt p:nth-child(3) { transition-delay: 0.2s; }
 
   .circle {
     width: 26px;

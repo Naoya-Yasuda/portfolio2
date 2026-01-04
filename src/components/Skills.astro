@@ -90,12 +90,27 @@
   figure {
     display: inline-block;
     margin: 0 15px 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  figure:hover {
+    transform: translateY(-8px) scale(1.1);
+  }
+
+  figure:hover img {
+    filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.2));
   }
 
   figcaption {
     color: grey;
     font-size: 10px;
     text-align: center;
+    transition: color 0.3s ease;
+  }
+
+  figure:hover figcaption {
+    color: #06b6d4;
   }
 
   figure img {
@@ -103,6 +118,7 @@
     height: 70px;
     margin-bottom: 4px;
     object-fit: contain;
+    transition: filter 0.3s ease;
   }
 
   @media (max-width: 767px) {

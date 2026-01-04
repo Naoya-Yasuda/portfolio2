@@ -103,18 +103,17 @@ const portfolios: Portfolio[] = [
   },
   {
     image: "/portfolio2/img/portfolios/IY.jpg",
-    title: "イトーヨーカドー<br>勤怠管理・作業割当システム",
+    title: "大手小売業向け<br>勤怠管理・作業割当システム",
     text: "accenture案件 ph1ではフロントエンドテックリードとして全画面のデザイン統一や認証認可を担当。ph2ではメイン機能である作業割当のバックエンドを担当。",
     lang: "HTML, SCSS, TS(Angular) Java(Spring Boot, Spring Batch)"
   },
   {
     image: "/portfolio2/img/portfolios/mingin.jpeg",
-    title: "みんなの銀行<br>ネット銀行スマホアプリ",
+    title: "ネット銀行<br>スマホアプリ開発",
     text: "accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数百万ユーザ想定のデータ作成、テストを実施。",
     lang: "Java(Spring Batch)",
     cloud: "GCP(DataFlow, Spanner), Azure, Datadog",
-    specialNote: "大規模アジャイル、マイクロサービス、gRPC、マルチスレッド",
-    links: [{ label: "Website", url: "https://www.minna-no-ginko.com/" }]
+    specialNote: "大規模アジャイル、マイクロサービス、gRPC、マルチスレッド"
   },
   {
     image: "/portfolio2/img/portfolios/accenture.jpg",
@@ -126,10 +125,9 @@ const portfolios: Portfolio[] = [
   },
   {
     image: "/portfolio2/img/portfolios/jtb.jpg",
-    title: "JTB公式サイト刷新",
+    title: "大手旅行会社<br>公式サイト刷新",
     text: "保守フェーズにて主に画面側を担当。刷新フェーズの結合テストも担当。",
-    lang: "HTML, CSS, JS, Java(Spring)",
-    links: [{ label: "Website", url: "https://www.jtb.co.jp/" }]
+    lang: "HTML, CSS, JS, Java(Spring)"
   },
   {
     image: "/portfolio2/img/portfolios/agile.jpg",
@@ -140,13 +138,13 @@ const portfolios: Portfolio[] = [
   },
   {
     image: "/portfolio2/img/portfolios/test.png",
-    title: "郵便局窓口端末テスト案件",
+    title: "金融機関向け<br>窓口端末テスト案件",
     text: "優秀なテストチーム内で半年間テストのイロハを教わる。結合テスト仕様書作成・実施、テスト観点作成、シナリオテスト実施",
     skill: "Tools : Excel"
   },
   {
     image: "/portfolio2/img/portfolios/monitor.jpg",
-    title: "FOX TV保守運用",
+    title: "外資系放送局<br>保守運用",
     text: "サーバーと放送の監視・障害対応。協力会社のリーダーとしてメンバー教育、シフト管理を実施。"
   }
 ];
@@ -156,8 +154,8 @@ const portfolios: Portfolio[] = [
   <h2>Portfolios</h2>
 
   <ul class="portfolios">
-    {portfolios.map((p) => (
-      <li class="panel">
+    {portfolios.map((p, index) => (
+      <li class="panel" style={`animation-delay: ${index * 0.1}s`}>
         {p.isPdf ? (
           <object class="panel-img" data={p.image} type="application/pdf"></object>
         ) : (
@@ -184,6 +182,21 @@ const portfolios: Portfolio[] = [
     ))}
   </ul>
 </section>
+
+<script>
+  // Intersection Observer でスクロール時にアニメーション発火
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.panel').forEach(panel => {
+    observer.observe(panel);
+  });
+</script>
 
 <style>
   .portfolios-wrapper {
@@ -212,6 +225,24 @@ const portfolios: Portfolio[] = [
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px #ccc;
+    /* アニメーション初期状態 */
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out, box-shadow 0.3s ease;
+  }
+
+  .panel.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .panel:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+
+  .panel.animate-in:hover {
+    transform: translateY(-5px);
   }
 
   .panel-img {
