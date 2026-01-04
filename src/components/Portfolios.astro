@@ -1,6 +1,6 @@
 ---
 interface Portfolio {
-  image: string;
+  image?: string;
   isPdf?: boolean;
   title: string;
   text: string;
@@ -12,9 +12,83 @@ interface Portfolio {
   specialNote?: string;
   links?: { label: string; url: string; isGithub?: boolean }[];
   note?: string;
+  isActive?: boolean;
 }
 
 const portfolios: Portfolio[] = [
+  {
+    image: "/portfolio2/img/portfolios/llms-txt.png",
+    title: "[官公庁系]<br>LLM向けコンテンツ整備PJ",
+    text: "llms.txt・mdファイル格納。QA作成、効果検証、robots.txt対応も予定。",
+    skill: "llms.txt, Markdown",
+    isActive: true
+  },
+  {
+    image: "/portfolio2/img/portfolios/secure-ai-platform.png",
+    title: "[GENIAC-PRIZE]<br>AIエージェント連携プラットフォーム",
+    text: "AIエージェント同士をセキュアにマッチング・連携させる国産OSSプラットフォームの開発。",
+    skill: "エージェントストア, 仲介エージェント, Google ADK, aisev, wandb",
+    links: [
+      { label: "Zenn", url: "https://zenn.dev/family_chicken/articles/baad16ee633be5" }
+    ]
+  },
+  {
+    image: "/portfolio2/img/portfolios/browser-agent-detector.png",
+    title: "[GENIAC-PRIZE]<br>AIブラウザ検知",
+    text: "AIブラウザの検知システムの研究開発。クラスタリング、PCA、セマンティック特徴量を活用した分析。",
+    skill: "Atlas, Comet",
+    links: [
+      { label: "Zenn", url: "https://zenn.dev/family_chicken/articles/deb1fae6e2e97b" }
+    ]
+  },
+  {
+    image: "/portfolio2/img/portfolios/news-screening.png",
+    title: "[官公庁系]<br>国際ニュース情報収集自動化PJ",
+    text: "国際ニュースの自動収集・整理システムの構築。",
+    skill: "n8n, Spreadsheet, browser-use"
+  },
+  {
+    image: "/portfolio2/img/portfolios/bid-screening.png",
+    title: "[官公庁系]<br>入札情報スクリーニングPJ",
+    text: "入札情報の自動収集・スクリーニングシステムの構築。",
+    lang: "Python",
+    cloud: "AWS(Step Functions, S3, Bedrock)",
+    isActive: true
+  },
+  {
+    image: "/portfolio2/img/portfolios/generative-video.png",
+    title: "[官公庁系]<br>広報動画生成PJ",
+    text: "様々な動画生成AIでPoC。キャラクターと職員の動画化を検証。",
+    skill: "動画生成AI"
+  },
+  {
+    image: "/portfolio2/img/portfolios/Perplexity_bias.png",
+    title: "卒業研究<br>Perplexityのバイアス定量評価",
+    text: "生成AIの回答に含まれる企業バイアスを定量的に評価する研究。Streamlitでデモアプリを公開。",
+    lang: "Python",
+    library: "Streamlit, Perplexity API",
+    links: [
+      { label: "Zenn", url: "https://zenn.dev/family_chicken/articles/57300afbbc08fd" },
+      { label: "Demo", url: "https://corporate-bias-study.streamlit.app/" }
+    ]
+  },
+  {
+    image: "/portfolio2/img/portfolios/hera-family-simulator.png",
+    title: "Hera Family Simulator<br>(Geeks AI ハッカソン)",
+    text: "家族シミュレーターアプリ。アイディア、AIエージェント実装を担当。",
+    skill: "Google ADK",
+    cloud: "Google Cloud Run",
+    links: [
+      { label: "Demo", url: "https://hera-frontend-prod-j5qfl2khna-an.a.run.app/" },
+      { label: "GitHub", url: "https://github.com/Yuta-Hachino/hera", isGithub: true }
+    ]
+  },
+  {
+    image: "/portfolio2/img/portfolios/Word-Excel.png",
+    title: "[官公庁系]<br>広聴メモフォーマット・意見集計PJ",
+    text: "広聴業務の効率化。メモフォーマットの自動生成と意見集計の自動化。",
+    lang: "VBA (Word, Excel)"
+  },
   {
     image: "/portfolio2/img/portfolios/ev-aws-migration.png",
     title: "自動車業界向け<br>AWS環境移行",
@@ -23,8 +97,8 @@ const portfolios: Portfolio[] = [
   },
   {
     image: "/portfolio2/img/portfolios/gov-it-support.png",
-    title: "官公庁系<br>IT全般の支援・調査",
-    text: "クラウド調達、 スクレイピング、 データ基盤構築、勉強会登壇、CMSによるHPの更新",
+    title: "[官公庁系]<br>IT全般の支援・調査",
+    text: "クラウド調達、各課室からのヒアリング、AI関連のQA、勉強会登壇、CMSによるHPの更新",
     lang: "Python",
     cloud: "AWS"
   },
@@ -38,10 +112,15 @@ const portfolios: Portfolio[] = [
   },
   {
     image: "/portfolio2/img/portfolios/manabi-dxq2023-paid.png",
-    title: "東北のグループ企業のDX推進（マナビDXQ2023から有償化）",
-    text: "データ基盤構築・GA4導入支援・ダッシュボード作成",
-    cloud: "AWS, Google Analytics",
-    links: [{ label: "Website", url: "https://dxq.manabi-dx.ipa.go.jp/" }]
+    title: "東北グループ企業<br>DX推進支援",
+    text: "GA4拡充・データ基盤構築・Snowflake導入支援・ダッシュボード作成",
+    cloud: "AWS, Google Analytics, Snowflake, Google Tag Manager",
+    skill: "カスタムイベント設計",
+    isActive: true,
+    links: [
+      { label: "Zenn", url: "https://zenn.dev/family_chicken/articles/5fbde24f8dcc81" },
+      { label: "Website", url: "https://dxq.manabi-dx.ipa.go.jp/" }
+    ]
   },
   {
     image: "/portfolio2/img/portfolios/EV.jpg",
@@ -154,11 +233,16 @@ const portfolios: Portfolio[] = [
 
   <ul class="portfolios">
     {portfolios.map((p, index) => (
-      <li class="panel" style={`animation-delay: ${index * 0.1}s`}>
-        {p.isPdf ? (
-          <object class="panel-img" data={p.image} type="application/pdf"></object>
+      <li class={`panel ${p.isActive ? 'panel-active' : ''}`} style={`animation-delay: ${index * 0.1}s`}>
+        {p.isActive && <div class="active-ribbon">Active</div>}
+        {p.image ? (
+          p.isPdf ? (
+            <object class="panel-img" data={p.image} type="application/pdf"></object>
+          ) : (
+            <img class="panel-img" src={p.image} alt={p.title.replace(/<br>/g, ' ')}>
+          )
         ) : (
-          <img class="panel-img" src={p.image} alt={p.title.replace(/<br>/g, ' ')}>
+          <div class="panel-img panel-img-placeholder"></div>
         )}
         <div class="panel-content">
           <p class="panel-title" set:html={p.title}></p>
@@ -228,6 +312,27 @@ const portfolios: Portfolio[] = [
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .panel-active {
+    border: 2px solid #22c55e;
+  }
+
+  .active-ribbon {
+    position: absolute;
+    top: 20px;
+    right: -35px;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    color: white;
+    padding: 6px 40px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: rotate(45deg);
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
   }
 
   .panel.animate-in {
@@ -250,6 +355,13 @@ const portfolios: Portfolio[] = [
     height: 240px;
     border-bottom: solid 1px #ccc;
     object-fit: cover;
+  }
+
+  .panel-img-placeholder {
+    background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 50%, #e0e0e0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .panel-content {
