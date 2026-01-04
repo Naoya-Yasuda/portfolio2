@@ -1,0 +1,44 @@
+---
+---
+
+<footer class="footer">
+  <p>
+    <span class="responsive_pc">Thank you for visiting.</span>
+    <br class="responsive_pc">
+    Copyright(c) and Designed by Naoya YASUDA.
+    <br class="responsive_notpc">
+    All Rights Reserved.
+  </p>
+</footer>
+
+<style>
+  .footer {
+    background-color: gray;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    box-shadow: 0 -2px 5px #333;
+  }
+
+  .footer p {
+    color: #fff;
+    padding: 15px 0;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .footer .responsive_notpc {
+    display: none;
+  }
+
+  @media (max-width: 767px) {
+    .footer .responsive_pc {
+      display: none;
+    }
+
+    .footer .responsive_notpc {
+      display: block;
+    }
+  }
+</style>

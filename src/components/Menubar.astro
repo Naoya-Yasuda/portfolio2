@@ -1,0 +1,39 @@
+---
+---
+
+<nav class="menubar">
+  <a href="#top" class="link-content">Top</a>
+  <a href="#about" class="link-content">About</a>
+  <a href="#skill" class="link-content">Skills</a>
+  <a href="#portfolios" class="link-content">Portfolios</a>
+  <a href="#contact" class="link-content">Contact</a>
+</nav>
+
+<style>
+  .menubar {
+    text-align: center;
+    background-color: gray;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+    opacity: 0.8;
+    box-shadow: 0 2px 5px #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menubar a {
+    color: white;
+    margin: 0 20px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .menubar a {
+      margin: 0 5px;
+      font-size: 16px;
+    }
+  }
+</style>

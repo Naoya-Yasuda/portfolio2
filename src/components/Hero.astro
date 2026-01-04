@@ -1,0 +1,175 @@
+---
+---
+
+<section id="top" class="top-wrapper">
+  <div class="top_images">
+    <img src="/portfolio2/img/bgimage.jpeg" alt="Yasuda's portfolio website's top image" class="responsive_pc">
+    <img src="/portfolio2/img/bgimage_responsive.jpeg" alt="Yasuda's portfolio website's top image to responsive" class="responsive_notpc">
+  </div>
+
+  <div id="main-title">
+    <h1>Naoya YASUDA's <br class="responsive_notpc">Portfolios <span class="responsive_notpc">Site</span></h1>
+  </div>
+
+  <div class="neural-network-wrapper">
+    <canvas id="neuralCanvas" class="neural-canvas"></canvas>
+  </div>
+</section>
+
+<script>
+  const canvas = document.getElementById('neuralCanvas') as HTMLCanvasElement;
+  const ctx = canvas.getContext('2d');
+
+  interface Node {
+    x: number;
+    y: number;
+    vx: number;
+    vy: number;
+  }
+
+  const nodes: Node[] = [];
+  const nodeCount = 50;
+
+  function resizeCanvas() {
+    const wrapper = canvas.parentElement;
+    if (wrapper) {
+      canvas.width = wrapper.offsetWidth;
+      canvas.height = wrapper.offsetHeight;
+    }
+  }
+
+  function initNodes() {
+    nodes.length = 0;
+    for (let i = 0; i < nodeCount; i++) {
+      nodes.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.5,
+        vy: (Math.random() - 0.5) * 0.5,
+      });
+    }
+  }
+
+  function animate() {
+    if (!ctx) return;
+
+    // トレイル効果（残像）- 既存の描画を少し透明にする（背景は透明のまま）
+    ctx.globalCompositeOperation = 'destination-out';
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = 'source-over';
+
+    nodes.forEach((node, i) => {
+      node.x += node.vx;
+      node.y += node.vy;
+
+      if (node.x < 0 || node.x > canvas.width) node.vx *= -1;
+      if (node.y < 0 || node.y > canvas.height) node.vy *= -1;
+
+      nodes.forEach((otherNode, j) => {
+        if (i === j) return;
+
+        const dx = node.x - otherNode.x;
+        const dy = node.y - otherNode.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance < 150) {
+          ctx.beginPath();
+          ctx.strokeStyle = `rgba(6, 182, 212, ${1 - distance / 150})`;
+          ctx.lineWidth = 0.5;
+          ctx.moveTo(node.x, node.y);
+          ctx.lineTo(otherNode.x, otherNode.y);
+          ctx.stroke();
+        }
+      });
+
+      ctx.beginPath();
+      ctx.fillStyle = '#06b6d4';
+      ctx.arc(node.x, node.y, 2, 0, Math.PI * 2);
+      ctx.fill();
+    });
+
+    requestAnimationFrame(animate);
+  }
+
+  resizeCanvas();
+  initNodes();
+  animate();
+  window.addEventListener('resize', () => {
+    resizeCanvas();
+    initNodes();
+  });
+</script>
+
+<style>
+  .top-wrapper {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .top_images img {
+    width: 100%;
+    height: auto;
+    opacity: 0.85;
+    vertical-align: bottom;
+  }
+
+  #main-title {
+    border-bottom: solid 2px #fff;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  #main-title h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #fff;
+  }
+
+  .responsive_notpc {
+    display: none;
+  }
+
+  .top_images .responsive_notpc {
+    display: none;
+  }
+
+  .neural-network-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .neural-canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .top-wrapper {
+      margin-top: 50px;
+    }
+
+    #main-title h1 {
+      font-size: 30px;
+    }
+
+    .top_images .responsive_pc {
+      display: none;
+    }
+
+    .top_images .responsive_notpc {
+      display: inline;
+    }
+
+    .responsive_notpc {
+      display: inline;
+    }
+  }
+</style>

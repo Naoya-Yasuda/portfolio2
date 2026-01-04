@@ -1,55 +1,14 @@
 {
-  "name": "yasutyportfolio2",
-  "version": "0.1.0",
-  "private": true,
+  "name": "astro-temp",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && npm run copy:pdf",
-    "lint": "vue-cli-service lint",
-    "copy:pdf": "cp src/assets/images/portfolios/MDXQ2023_slide.pdf docs/img"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
-    "@fortawesome/vue-fontawesome": "^0.1.9",
-    "core-js": "^3.6.5",
-    "js": "^0.1.0",
-    "sass": "^1.71.1",
-    "vue": "^2.6.11",
-    "vue-smoothscroll": "^0.2.0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
-    "@vue/cli-service": "5.0.8",
-    "babel-eslint": "^10.1.0",
-    "css-loader": "^3.5.3",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "sass-loader": "^8.0.2",
-    "style-loader": "^1.2.1",
-    "vue-particles": "^1.0.9",
-    "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.43.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "astro": "^5.16.6"
+  }
 }

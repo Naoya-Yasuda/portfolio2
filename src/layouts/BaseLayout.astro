@@ -1,0 +1,63 @@
+---
+interface Props {
+  title?: string;
+}
+
+const { title = "Naoya YASUDA's Portfolio" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <link rel="icon" type="image/svg+xml" href="/portfolio2/favicon.svg">
+</head>
+<body>
+  <slot />
+</body>
+</html>
+
+<style is:global>
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Sans', 'YuGothic', 'Yu Gothic', 'Meiryo', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 100px 0 40px 0;
+    color: #343434;
+    text-decoration: underline;
+    text-decoration-color: #87ceeb;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #343434;
+  }
+
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 36px;
+    }
+  }
+</style>
