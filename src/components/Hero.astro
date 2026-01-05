@@ -3,7 +3,10 @@
 
 <section id="top" class="top-wrapper">
   <div class="top_images">
-    <img src="/portfolio2/img/bgimage.jpeg" alt="Yasuda's portfolio website's top image" class="responsive_pc">
+    <div class="hero-media responsive_pc">
+      <img src="/portfolio2/img/bgimage.jpeg" alt="Yasuda's portfolio website's top image" class="hero-img">
+      <video src="/portfolio2/img/hero.mp4" muted loop playsinline class="hero-video"></video>
+    </div>
     <img src="/portfolio2/img/bgimage_responsive.jpeg" alt="Yasuda's portfolio website's top image to responsive" class="responsive_notpc">
   </div>
 
@@ -99,6 +102,30 @@
     resizeCanvas();
     initNodes();
   });
+
+  // Hero video hover control
+  const heroMedia = document.querySelector('.hero-media');
+  const heroVideo = document.querySelector('.hero-video') as HTMLVideoElement;
+
+  if (heroMedia && heroVideo) {
+    const heroImg = document.querySelector('.hero-img') as HTMLImageElement;
+    let hasPlayed = false;
+
+    heroMedia.addEventListener('mouseenter', () => {
+      if (!hasPlayed) {
+        // 初回ホバー時に画像を非表示にして動画を表示
+        heroImg.style.opacity = '0';
+        heroVideo.style.opacity = '0.85';
+        hasPlayed = true;
+      }
+      heroVideo.play();
+    });
+
+    heroMedia.addEventListener('mouseleave', () => {
+      heroVideo.pause();
+      // 動画は表示したまま（画像に戻さない）
+    });
+  }
 </script>
 
 <style>
@@ -115,12 +142,37 @@
     vertical-align: bottom;
   }
 
+  .hero-media {
+    position: relative;
+    width: 100%;
+  }
+
+  .hero-media .hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+
+  .hero-media .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+
   #main-title {
     border-bottom: solid 2px #fff;
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+    pointer-events: none;
   }
 
   #main-title h1 {
