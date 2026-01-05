@@ -19,14 +19,14 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/llms-txt.png",
     title: "[官公庁系]<br>LLM向けコンテンツ整備PJ",
-    text: "llms.txt・mdファイル格納。QA作成、効果検証、robots.txt対応も予定。",
-    skill: "llms.txt, Markdown",
+    text: "国民の問い合わせ負担軽減と法律理解促進のため、AIがWebサイトを読み取りやすくする専用ファイル(llms.txt等)を整備",
+    skill: "llms.txt, Markdown, QA作成, 効果検証, robots.txt対応",
     isActive: true
   },
   {
     image: "/portfolio2/img/portfolios/secure-ai-platform.png",
     title: "[GENIAC-PRIZE]<br>AIエージェント連携プラットフォーム",
-    text: "AIエージェント同士をセキュアにマッチング・連携させる国産OSSプラットフォームの開発。",
+    text: "AIエージェント同士をセキュアにマッチング・連携させる国産OSSプラットフォームの開発",
     skill: "エージェントストア, 仲介エージェント, Google ADK, aisev, wandb",
     links: [
       { label: "Zenn", url: "https://zenn.dev/family_chicken/articles/baad16ee633be5" },
@@ -37,8 +37,8 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/browser-agent-detector.png",
     title: "[GENIAC-PRIZE]<br>AIブラウザ検知",
-    text: "AIブラウザの検知システムの研究開発。クラスタリングによるプロンプトインジェクション検知、PCA、セマンティック特徴量を活用した分析。",
-    skill: "Atlas, Comet",
+    text: "AIブラウザの検知システムの研究開発。クラスタリングによるプロンプトインジェクション検知、PCA、セマンティック特徴量を活用した検知・ブロックシステム",
+    skill: "Atlas, Comet, LightGBM, KMeans, Isolation Forest, SentenceTransformer, PCA",
     links: [
       { label: "Zenn", url: "https://zenn.dev/family_chicken/articles/deb1fae6e2e97b" },
       { label: "GitHub", url: "https://github.com/sin6160/browser-agent-detector", isGithub: true },
@@ -48,7 +48,7 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/another-star-corporate.png",
     title: "Another Star合同会社<br>コーポレートサイト",
-    text: "起業した合同会社のコーポレートサイト。Figma MakeでデザインしThree.jsで3D表現を実装。<br><strong>🚀 受託開発のご相談承ります</strong>",
+    text: "起業した合同会社のコーポレートサイト。Figma MakeでデザインしThree.jsで3D表現を実装<br><strong>🚀 受託開発のご相談承ります</strong>",
     lang: "TypeScript(React)",
     library: "Three.js",
     skill: "Figma Make, Vercel",
@@ -59,13 +59,13 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/news-screening.png",
     title: "[官公庁系]<br>国際ニュース情報収集自動化PJ",
-    text: "n8nによるワークフロー自動化とbrowser-useのAPI化により、海外ニュースサイトから記事を自動収集・整理するシステムを構築。",
+    text: "n8nによるワークフロー自動化とbrowser-useのブラウザAIのAPI化により、海外ニュースサイトから記事を自動収集・整理するシステムを構築",
     skill: "n8n, Spreadsheet, browser-use"
   },
   {
     image: "/portfolio2/img/portfolios/bid-screening.png",
     title: "[官公庁系]<br>入札情報スクリーニングPJ",
-    text: "入札情報の定期スクレイピング、データクリーニング・基盤構築、AIによるラベル付けを実装したスクリーニングシステム。",
+    text: "全国自治体の入札情報の定期スクレイピング、データクリーニング・基盤構築、AIによるラベル付けを実装したスクリーニングシステム",
     lang: "Python",
     cloud: "AWS(Step Functions, S3, Bedrock)",
     isActive: true
@@ -73,13 +73,13 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/generative-video.png",
     title: "[官公庁系]<br>広報動画生成PJ",
-    text: "広報用動画の生成AI活用PoC。職員のプライバシー保護と動画制作工数削減を目的に、キャラクターや職員の動画化を検証。",
+    text: "広報用動画の生成AI活用PoC。職員のプライバシー保護と動画制作工数削減を目的に、キャラクターや職員の動画化を検証",
     skill: "動画生成AI: Kling, Veo3, nano banana, Sora2"
   },
   {
     image: "/portfolio2/img/portfolios/Perplexity_bias.png",
     title: "卒業研究<br>Perplexityのバイアス定量評価",
-    text: "生成AIの回答に含まれる企業バイアスを定量的に評価する研究。Streamlitでデモアプリを公開。",
+    text: "生成AIの回答に含まれる企業バイアスを定量的に評価する研究。Streamlitでデモアプリを公開",
     lang: "Python",
     library: "Streamlit, Perplexity API",
     links: [
@@ -91,7 +91,7 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/hera-family-simulator.png",
     title: "Hera Family Simulator<br>(Geechs AI ハッカソン)",
-    text: "ヘーラー（ギリシャ神話の家庭の神）がヒアリングし、理想の家族体験をシミュレート。家族とやりたいことを話すと、後日談設定で子供から手紙が届く。アイディア・AIエージェント実装を担当。",
+    text: "ヘーラー（ギリシャ神話の家庭の神）がヒアリングし、理想の家族体験を画面上で実現。後日談として子供から手紙も届く。アイディア・AIエージェント実装担当",
     skill: "Google ADK",
     cloud: "Google Cloud Run",
     links: [
@@ -102,26 +102,26 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/Word-Excel.png",
     title: "[官公庁系]<br>広聴メモフォーマット・意見集計PJ",
-    text: "従来は集計・検索ができず意見が活用されていなかった課題を解決。メモフォーマットの自動生成と意見集計の自動化を実装。",
+    text: "従来は集計・検索ができず意見が活用されていなかった課題を解決。ラベル付け可能なメモフォーマットを設計し、Excel側で条件付き集計・検索を実現",
     lang: "VBA (Word, Excel)"
   },
   {
     image: "/portfolio2/img/portfolios/ev-aws-migration.png",
     title: "ハイブリッド車データ<br>AWS環境移行",
-    text: "開発ベンダ環境から顧客独自のAWS環境へHV車両データ基盤を移行。移行要件定義、計画策定、移行実施を担当。",
+    text: "開発ベンダ環境から顧客独自のAWS環境へHV車両データ基盤を移行。移行要件定義、計画策定、移行実施を担当",
     cloud: "AWS(CloudFormations, Hadoop, Spark)"
   },
   {
     image: "/portfolio2/img/portfolios/gov-it-support.png",
     title: "[官公庁系]<br>IT全般の支援・調査",
-    text: "<strong>AWS調達・初期設定</strong>、クラウド調達、各課室からのヒアリング、AI関連のQA、勉強会登壇、CMSによるHPの更新",
+    text: "AWS調達・初期設定、各課室からのヒアリング、AI関連のQA、勉強会登壇、CMSによるHPの更新",
     lang: "Python",
     cloud: "AWS"
   },
   {
     image: "/portfolio2/img/portfolios/graph-python312-security.png",
     title: "HVデータ可視化<br>Python3.12セキュリティ対応",
-    text: "Pythonバージョンアップで動作しなくなったグラフ描画ツールを刷新。対応案調査・評価、製造、テストを実施。",
+    text: "Pythonバージョンアップで動作しなくなったグラフ描画ツールを刷新。対応案調査・評価、製造、テストを実施",
     lang: "Python",
     library: "matplotlib, selenium, PhantomJS",
     cloud: "AWS(Lambda, S3, ECR)"
@@ -161,7 +161,7 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/MDXQ2023.png",
     title: "マナビDX Quest 2023<br>PBL05データ分析",
-    text: "データ分析30位 Gold修了。EDA、PoC、実行計画策定まで実施。",
+    text: "データ分析30位 Gold修了。EDA、PoC、実行計画策定まで実施",
     lang: "Python, Jupyter Notebook",
     aiModel: "LightGBM",
     links: [{ label: "Website", url: "https://dxq.manabi-dx.ipa.go.jp/" }]
@@ -181,7 +181,7 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/portfolio_panel.png",
     title: "ポートフォリオサイト",
-    text: "当サイト、Astroを用いて作成。<br>レスポンシブデザイン対応。",
+    text: "当サイト、Astroを用いて作成<br>レスポンシブデザイン対応",
     lang: "HTML, CSS, JS(Astro)",
     skill: "Deployment : GitHub Pages",
     links: [{ label: "GitHub", url: "https://github.com/Naoya-Yasuda/portfolio2", isGithub: true }]
@@ -198,13 +198,13 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/IY.jpg",
     title: "大手小売業向け<br>勤怠管理・作業割当システム",
-    text: "accenture案件 ph1ではフロントエンドテックリードとして全画面のデザイン統一や認証認可を担当。ph2ではメイン機能である作業割当のバックエンドを担当。",
+    text: "accenture案件 ph1ではフロントエンドテックリードとして全画面のデザイン統一や認証認可を担当。ph2ではメイン機能である作業割当のバックエンドを担当",
     lang: "HTML, SCSS, TS(Angular) Java(Spring Boot, Spring Batch)"
   },
   {
     image: "/portfolio2/img/portfolios/mingin.jpeg",
     title: "ネット銀行<br>スマホアプリ開発",
-    text: "accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数百万ユーザ想定のデータ作成、テストを実施。",
+    text: "accenture案件 マイクロサービス・デビットカードチームにてバッチ開発を担当。その後パフォーマンステストチームにて数百万ユーザ想定のデータ作成、テストを実施",
     lang: "Java(Spring Batch)",
     cloud: "GCP(DataFlow, Spanner), Azure, Datadog",
     specialNote: "大規模アジャイル、マイクロサービス、gRPC、マルチスレッド"
@@ -212,7 +212,7 @@ const portfolios: Portfolio[] = [
   {
     image: "/portfolio2/img/portfolios/accenture.jpg",
     title: "accenture<br>社内トレーニング(ACTS)",
-    text: "accentureとの契約第一号となるべく他社との混合チームで参加。保険会社のシステム刷新のPBLについて独自定義されたACTSという手法でスクラム開発し評価される。2位通過で無事案件獲得に繋がった。",
+    text: "accentureとの契約第一号となるべく他社との混合チームで参加。保険会社のシステム刷新のPBLについて独自定義されたACTSという手法でスクラム開発し評価される。2位通過で無事案件獲得に繋がった",
     lang: "TS(Angular), Java(Spring Boot)",
     cloud: "GCP",
     links: [{ label: "Website", url: "https://www.accenture.com/jp-ja/services/software-engineering/accenture-connected-technology-solution" }]
