@@ -110,8 +110,21 @@
   if (heroMedia && heroVideo) {
     const heroImg = document.querySelector('.hero-img') as HTMLImageElement;
     let hasPlayed = false;
+    let videoReady = false;
+
+    // 動画の読み込み完了を待つ
+    heroVideo.addEventListener('canplaythrough', () => {
+      videoReady = true;
+    });
+
+    // 既に読み込み済みの場合
+    if (heroVideo.readyState >= 4) {
+      videoReady = true;
+    }
 
     heroMedia.addEventListener('mouseenter', () => {
+      if (!videoReady) return; // 動画が読み込まれるまでホバー無効
+
       if (!hasPlayed) {
         // 初回ホバー時に画像を非表示にして動画を表示
         heroImg.style.opacity = '0';
