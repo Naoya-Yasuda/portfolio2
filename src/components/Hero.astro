@@ -31,7 +31,9 @@
   }
 
   const nodes: Node[] = [];
-  const nodeCount = 50;
+  // 画面幅に応じてノード数を調整（スマホは少なく）
+  const getNodeCount = () => window.innerWidth < 768 ? 20 : 50;
+  let nodeCount = getNodeCount();
 
   function resizeCanvas() {
     const wrapper = canvas.parentElement;
@@ -100,6 +102,7 @@
   animate();
   window.addEventListener('resize', () => {
     resizeCanvas();
+    nodeCount = getNodeCount();
     initNodes();
   });
 
