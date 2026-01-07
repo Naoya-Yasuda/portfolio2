@@ -10,7 +10,7 @@ interface Portfolio {
   cloud?: string;
   aiModel?: string;
   specialNote?: string;
-  links?: { label: string; url: string; isGithub?: boolean }[];
+  links?: { label: string; url: string; isGithub?: boolean; isContact?: boolean }[];
   note?: string;
   isActive?: boolean;
 }
@@ -54,7 +54,7 @@ const portfolios: Portfolio[] = [
     skill: "Figma Make, Vercel",
     links: [
       { label: "Website", url: "https://www.another-star.jp/" },
-      { label: "📧 お問い合わせ", url: "mailto:contact@another-star.jp" }
+      { label: "お問い合わせ", url: "mailto:contact@another-star.jp", isContact: true }
     ]
   },
   {
@@ -273,7 +273,7 @@ const portfolios: Portfolio[] = [
           <br>
           <div class="panel-buttons">
             {p.links?.map((link) => (
-              <a href={link.url} class={`panel-link ${link.isGithub ? 'github-link' : ''}`}>{link.label}</a>
+              <a href={link.url} class={`panel-link ${link.isGithub ? 'github-link' : ''} ${link.isContact ? 'contact-link' : ''}`}>{link.label}</a>
             ))}
             {p.note && <p class="panel-text-mini">{p.note}</p>}
           </div>
@@ -424,6 +424,11 @@ const portfolios: Portfolio[] = [
   .github-link {
     border-color: #171515;
     color: #171515;
+  }
+
+  .contact-link {
+    border-color: #28a745;
+    color: #28a745;
   }
 
   .panel-buttons {
