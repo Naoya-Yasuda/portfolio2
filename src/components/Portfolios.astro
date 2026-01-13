@@ -247,6 +247,18 @@ const portfolios: Portfolio[] = [
 <section id="portfolios" class="portfolios-wrapper">
   <h2>Portfolios</h2>
 
+  <!-- 稼働状況ポップアップ -->
+  <div id="availability-popup" class="availability-popup">
+    <div class="availability-content">
+      <span class="availability-icon">📅</span>
+      <div class="availability-text">
+        <strong>稼働状況</strong>
+        <p>火・金は官公庁案件のため<br>日中の稼働が難しい状況です</p>
+      </div>
+      <button class="availability-close" aria-label="閉じる">&times;</button>
+    </div>
+  </div>
+
   <ul class="portfolios">
     {portfolios.map((p, index) => (
       <li class={`panel ${p.isActive ? 'panel-active' : ''}`} style={`animation-delay: ${index * 0.1}s`}>
@@ -295,11 +307,122 @@ const portfolios: Portfolio[] = [
   document.querySelectorAll('.panel').forEach(panel => {
     observer.observe(panel);
   });
+
+  // 稼働状況ポップアップの表示制御
+  const popup = document.getElementById('availability-popup');
+  const portfoliosSection = document.getElementById('portfolios');
+  let popupShown = false;
+
+  const popupObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !popupShown) {
+        popupShown = true;
+        popup?.classList.add('show');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  if (portfoliosSection) {
+    popupObserver.observe(portfoliosSection);
+  }
+
+  // 閉じるボタン
+  const closeBtn = document.querySelector('.availability-close');
+  closeBtn?.addEventListener('click', () => {
+    popup?.classList.remove('show');
+  });
+
+  // 5秒後に自動で閉じる
+  setTimeout(() => {
+    if (popup?.classList.contains('show')) {
+      popup.classList.remove('show');
+    }
+  }, 8000);
 </script>
 
 <style>
   .portfolios-wrapper {
     text-align: center;
+    position: relative;
+  }
+
+  /* 稼働状況ポップアップ */
+  .availability-popup {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.4s ease-out;
+    pointer-events: none;
+  }
+
+  .availability-popup.show {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+  }
+
+  .availability-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+    border: 2px solid #f0c040;
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    max-width: 320px;
+  }
+
+  .availability-icon {
+    font-size: 28px;
+  }
+
+  .availability-text {
+    flex: 1;
+  }
+
+  .availability-text strong {
+    display: block;
+    color: #b8860b;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .availability-text p {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  .availability-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .availability-close:hover {
+    color: #666;
+  }
+
+  @media (max-width: 767px) {
+    .availability-popup {
+      top: auto;
+      bottom: 20px;
+      right: 10px;
+      left: 10px;
+    }
+
+    .availability-content {
+      max-width: none;
+    }
   }
 
   .portfolios {
