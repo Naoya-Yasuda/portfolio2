@@ -245,7 +245,7 @@ const portfolios: Portfolio[] = [
 ---
 
 <section id="portfolios" class="portfolios-wrapper">
-  <h2>Portfolios</h2>
+  <h2 id="portfolios-title">Portfolios</h2>
 
   <!-- 稼働状況ポップアップ -->
   <div id="availability-popup" class="availability-popup">
@@ -294,7 +294,7 @@ const portfolios: Portfolio[] = [
   </ul>
 </section>
 
-<script>
+<script is:inline>
   // Intersection Observer でスクロール時にアニメーション発火
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -310,34 +310,46 @@ const portfolios: Portfolio[] = [
 
   // 稼働状況ポップアップの表示制御
   const popup = document.getElementById('availability-popup');
-  const portfoliosSection = document.getElementById('portfolios');
+  const portfoliosTitle = document.getElementById('portfolios-title');
   let popupShown = false;
 
-  const popupObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting && !popupShown) {
-        popupShown = true;
-        popup?.classList.add('show');
-      }
-    });
-  }, { threshold: 0.2 });
-
-  if (portfoliosSection) {
-    popupObserver.observe(portfoliosSection);
+  function showPopup() {
+    if (!popupShown && popup) {
+      popupShown = true;
+      popup.classList.add('show');
+      setTimeout(() => {
+        popup.classList.remove('show');
+      }, 8000);
+    }
   }
+
+  // IntersectionObserverでh2タイトルを監視
+  if (portfoliosTitle) {
+    const popupObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          showPopup();
+        }
+      });
+    }, { threshold: 0.5 });
+    popupObserver.observe(portfoliosTitle);
+  }
+
+  // フォールバック: スクロールイベント
+  window.addEventListener('scroll', () => {
+    if (portfoliosTitle && !popupShown) {
+      const rect = portfoliosTitle.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        showPopup();
+      }
+    }
+  });
 
   // 閉じるボタン
   const closeBtn = document.querySelector('.availability-close');
   closeBtn?.addEventListener('click', () => {
     popup?.classList.remove('show');
   });
-
-  // 5秒後に自動で閉じる
-  setTimeout(() => {
-    if (popup?.classList.contains('show')) {
-      popup.classList.remove('show');
-    }
-  }, 8000);
 </script>
 
 <style>
